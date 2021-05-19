@@ -22,6 +22,7 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(),
             Expanded(
               child: Column(
                 children: [
