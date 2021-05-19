@@ -24,6 +24,7 @@ class LoginPage extends StatelessWidget {
             ),
             Expanded(
               child: Container(
+                padding: EdgeInsets.only(left: 10.0, right: 10.0),
                 child: TextField(
                   decoration: InputDecoration(
                     filled: true,
