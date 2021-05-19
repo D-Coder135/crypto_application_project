@@ -21,6 +21,7 @@ class LoginPage extends StatelessWidget {
             Column(
               children: <Widget>[
                 Container(
+                  margin: EdgeInsets.only(top: 20.0),
                   alignment: Alignment.topLeft,
                   padding: EdgeInsets.only(left: 10.0),
                   child: Text(
@@ -122,6 +123,20 @@ class LoginPage extends StatelessWidget {
                     ),
                   ],
                 ),
+                SignInButton(
+                  Buttons.GoogleDark,
+                  onPressed: () {},
+                ),
+                SignInButton(Buttons.Facebook, onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return HomePage();
+                      },
+                    ),
+                  );
+                })
               ],
             ),
           ],
