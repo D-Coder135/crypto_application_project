@@ -33,6 +33,7 @@ class LoginPage extends StatelessWidget {
                     hintStyle: TextStyle(
                       color: Colors.grey[600],
                       fontFamily: 'NunitoSans',
+                      fontWeight: FontWeight.w400,
                     ),
                     border: UnderlineInputBorder(
                         borderRadius: BorderRadius.horizontal(
