@@ -57,6 +57,9 @@ class LoginPage extends StatelessWidget {
                     ),
                   );
                 }),
+                SizedBox(
+                  height: 10.0,
+                ),
                 Text(
                   'OR',
                   style: TextStyle(
@@ -64,6 +67,9 @@ class LoginPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     fontFamily: 'NotoSansJP',
                   ),
+                ),
+                SizedBox(
+                  height: 10.0,
                 ),
                 Column(
                   children: [
@@ -108,6 +114,9 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+                SizedBox(
+                  height: 200.0,
                 ),
                 Row(
                   children: <Widget>[
