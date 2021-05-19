@@ -19,9 +19,9 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Column(
-              // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Container(
+                  margin: EdgeInsets.only(top: 25.0),
                   alignment: Alignment.topLeft,
                   padding: EdgeInsets.only(left: 10.0),
                   child: Text(
