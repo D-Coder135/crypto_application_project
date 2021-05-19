@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
                   style: TextStyle(
                     color: Color(0xFF323232),
                     fontSize: 50.0,
-                    fontFamily: 'Lato',
+                    fontFamily: 'NunitoSans',
                     fontWeight: FontWeight.bold,
                   ),
                 ),
