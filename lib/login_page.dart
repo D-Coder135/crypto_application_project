@@ -31,7 +31,7 @@ class LoginPage extends StatelessWidget {
                   hintStyle: TextStyle(
                     color: Colors.grey[600],
                   ),
-                  border: OutlineInputBorder(),
+                  border: UnderlineInputBorder(),
                 ),
               ),
             )
