@@ -28,6 +28,7 @@ class LoginPage extends StatelessWidget {
                   filled: true,
                   fillColor: Colors.white,
                   hintText: 'Email address',
+                  hintStyle: TextStyle(),
                 ),
               ),
             )
