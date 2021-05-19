@@ -34,6 +34,26 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                SignInButton(Buttons.GoogleDark, onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return HomePage();
+                      },
+                    ),
+                  );
+                }),
+                SignInButton(Buttons.Facebook, onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return HomePage();
+                      },
+                    ),
+                  );
+                }),
                 SizedBox(
                   height: 100.0,
                 ),
@@ -119,30 +139,6 @@ class LoginPage extends StatelessWidget {
                         radius: 40.0,
                       ),
                     ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    SignInButton(Buttons.GoogleDark, onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) {
-                            return HomePage();
-                          },
-                        ),
-                      );
-                    }),
-                    SignInButton(Buttons.Facebook, onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) {
-                            return HomePage();
-                          },
-                        ),
-                      );
-                    })
                   ],
                 ),
               ],
