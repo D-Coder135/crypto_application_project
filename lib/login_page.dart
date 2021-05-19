@@ -32,6 +32,7 @@ class LoginPage extends StatelessWidget {
                     hintText: 'Email address',
                     hintStyle: TextStyle(
                       color: Colors.grey[600],
+                      fontFamily: 'NunitoSans',
                     ),
                     border: UnderlineInputBorder(
                         borderRadius: BorderRadius.horizontal(
