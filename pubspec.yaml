@@ -30,6 +30,6 @@ flutter:
     - family: ArchitectsDaughter
       fonts:
         - asset: fonts/ArchitectsDaughter-Regular.ttf
-    - family: Lato
+    - family: NunitoSans
       fonts:
-        - asset: fonts/Lato-Regular.ttf
+        - asset: fonts/NunitoSans-Regular.ttf
