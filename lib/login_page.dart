@@ -7,11 +7,13 @@ class LoginPage extends StatelessWidget {
       child: Scaffold(
         body: Column(
           children: <Widget>[
-            Text(
-              'Welcome',
-              style: TextStyle(
-                backgroundColor: Colors.black,
-                fontSize: 50.0,
+            Container(
+              child: Text(
+                'Welcome',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 50.0,
+                ),
               ),
             ),
           ],
