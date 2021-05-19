@@ -26,6 +26,7 @@ class LoginPage extends StatelessWidget {
               child: TextField(
                 decoration: InputDecoration(
                   filled: true,
+                  fillColor: Colors.white,
                 ),
               ),
             )
