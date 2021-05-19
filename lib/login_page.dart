@@ -24,7 +24,9 @@ class LoginPage extends StatelessWidget {
             ),
             Expanded(
               child: TextField(
-                decoration: InputDecoration(),
+                decoration: InputDecoration(
+                  filled: true,
+                ),
               ),
             )
           ],
