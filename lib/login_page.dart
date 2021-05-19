@@ -6,10 +6,10 @@ class LoginPage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             Expanded(
               child: Container(
+                alignment: Alignment.topLeft,
                 padding: EdgeInsets.only(left: 10.0),
                 child: Text(
                   'Welcome',
