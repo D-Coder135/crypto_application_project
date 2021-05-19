@@ -84,7 +84,9 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(),
+                SizedBox(
+                  width: 200.0,
+                ),
                 CircleAvatar(
                   child: Icon(
                     Icons.arrow_forward_ios,
