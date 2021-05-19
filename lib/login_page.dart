@@ -19,6 +19,7 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Container(
                   margin: EdgeInsets.only(top: 20.0),
@@ -37,51 +38,49 @@ class LoginPage extends StatelessWidget {
                 SizedBox(
                   height: 100.0,
                 ),
-                Expanded(
-                  child: Column(
-                    children: [
-                      Container(
-                        margin: EdgeInsets.all(10.0),
-                        padding: EdgeInsets.only(left: 10.0, right: 10.0),
-                        child: TextField(
-                          decoration: InputDecoration(
-                            filled: true,
-                            fillColor: Colors.white,
-                            hintText: 'Email address',
-                            hintStyle: TextStyle(
-                              color: Colors.grey[600],
-                              fontFamily: 'NunitoSans',
-                              fontWeight: FontWeight.w400,
-                            ),
-                            border: UnderlineInputBorder(
-                                borderRadius: BorderRadius.horizontal(
-                                    left: Radius.circular(10.0),
-                                    right: Radius.circular(10.0))),
+                Column(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.only(left: 10.0, right: 10.0),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          filled: true,
+                          fillColor: Colors.white,
+                          hintText: 'Email address',
+                          hintStyle: TextStyle(
+                            color: Colors.grey[600],
+                            fontFamily: 'NunitoSans',
+                            fontWeight: FontWeight.w400,
                           ),
+                          border: UnderlineInputBorder(
+                              borderRadius: BorderRadius.horizontal(
+                                  left: Radius.circular(10.0),
+                                  right: Radius.circular(10.0))),
                         ),
                       ),
-                      Container(
-                        margin: EdgeInsets.all(10.0),
-                        padding: EdgeInsets.only(left: 10.0, right: 10.0),
-                        child: TextField(
-                          decoration: InputDecoration(
-                            filled: true,
-                            fillColor: Colors.white,
-                            hintText: 'Password',
-                            hintStyle: TextStyle(
-                              color: Colors.grey[600],
-                              fontFamily: 'NunitoSans',
-                              fontWeight: FontWeight.w400,
-                            ),
-                            border: UnderlineInputBorder(
-                                borderRadius: BorderRadius.horizontal(
-                                    left: Radius.circular(10.0),
-                                    right: Radius.circular(10.0))),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.only(left: 10.0, right: 10.0),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          filled: true,
+                          fillColor: Colors.white,
+                          hintText: 'Password',
+                          hintStyle: TextStyle(
+                            color: Colors.grey[600],
+                            fontFamily: 'NunitoSans',
+                            fontWeight: FontWeight.w400,
                           ),
+                          border: UnderlineInputBorder(
+                              borderRadius: BorderRadius.horizontal(
+                                  left: Radius.circular(10.0),
+                                  right: Radius.circular(10.0))),
                         ),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
                 Row(
                   children: <Widget>[
