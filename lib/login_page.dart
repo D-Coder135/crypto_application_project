@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -88,6 +89,16 @@ class LoginPage extends StatelessWidget {
                   width: 200.0,
                 ),
                 GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return HomePage();
+                        },
+                      ),
+                    );
+                  },
                   child: CircleAvatar(
                     child: Icon(
                       Icons.arrow_forward_ios,
