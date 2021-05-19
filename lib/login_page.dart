@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
                 alignment: Alignment.topLeft,
                 padding: EdgeInsets.only(left: 10.0),
                 child: Text(
-                  'Welcome',
+                  'Welcome!',
                   style: TextStyle(
                     color: Color(0xFF323232),
                     fontSize: 50.0,
