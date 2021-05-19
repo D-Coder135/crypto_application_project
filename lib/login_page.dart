@@ -42,6 +42,27 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
               ),
+            ),
+            Expanded(
+              child: Container(
+                padding: EdgeInsets.only(left: 10.0, right: 10.0),
+                child: TextField(
+                  decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Colors.white,
+                    hintText: 'Password',
+                    hintStyle: TextStyle(
+                      color: Colors.grey[600],
+                      fontFamily: 'NunitoSans',
+                      fontWeight: FontWeight.w400,
+                    ),
+                    border: UnderlineInputBorder(
+                        borderRadius: BorderRadius.horizontal(
+                            left: Radius.circular(10.0),
+                            right: Radius.circular(10.0))),
+                  ),
+                ),
+              ),
             )
           ],
         ),
