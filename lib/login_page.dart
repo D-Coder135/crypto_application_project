@@ -8,6 +8,7 @@ class LoginPage extends StatelessWidget {
         body: Column(
           children: <Widget>[
             Container(
+              padding: EdgeInsets.only(left: 10.0),
               child: Text(
                 'Welcome',
                 style: TextStyle(
