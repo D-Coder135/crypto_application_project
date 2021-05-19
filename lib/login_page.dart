@@ -27,6 +27,7 @@ class LoginPage extends StatelessWidget {
                 decoration: InputDecoration(
                   filled: true,
                   fillColor: Colors.white,
+                  hintText: 'Email address',
                 ),
               ),
             )
