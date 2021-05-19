@@ -1,4 +1,5 @@
 import 'package:demo_crypto_app/homepage.dart';
+import 'package:demo_crypto_app/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -62,7 +63,7 @@ class FrontPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) {
-                              return HomePage();
+                              return LoginPage();
                             },
                           ),
                         );
