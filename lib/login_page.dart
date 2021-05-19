@@ -22,6 +22,9 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
             ),
+            Expanded(
+              child: TextField(),
+            )
           ],
         ),
       ),
