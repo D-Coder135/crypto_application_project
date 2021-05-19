@@ -10,6 +10,7 @@ class LoginPage extends StatelessWidget {
             'Welcome',
             style: TextStyle(
               backgroundColor: Colors.black,
+              fontSize: 50.0,
             ),
           ),
         ],
