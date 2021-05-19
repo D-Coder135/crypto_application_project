@@ -87,13 +87,15 @@ class LoginPage extends StatelessWidget {
                 SizedBox(
                   width: 200.0,
                 ),
-                CircleAvatar(
-                  child: Icon(
-                    Icons.arrow_forward_ios,
-                    color: Colors.white,
+                GestureDetector(
+                  child: CircleAvatar(
+                    child: Icon(
+                      Icons.arrow_forward_ios,
+                      color: Colors.white,
+                    ),
+                    backgroundColor: Color(0xFFFA6400),
+                    radius: 40.0,
                   ),
-                  backgroundColor: Color(0xFFFA6400),
-                  radius: 40.0,
                 ),
               ],
             ),
