@@ -70,7 +70,21 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Row(
-              children: <Widget>[],
+              children: <Widget>[
+                Container(
+                  padding: EdgeInsets.all(10.0),
+                  margin: EdgeInsets.all(10.0),
+                  child: Text(
+                    'Sign in',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'NotoSansJP',
+                    ),
+                  ),
+                )
+              ],
             ),
           ],
         ),
