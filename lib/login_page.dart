@@ -23,15 +23,17 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Expanded(
-              child: TextField(
-                decoration: InputDecoration(
-                  filled: true,
-                  fillColor: Colors.white,
-                  hintText: 'Email address',
-                  hintStyle: TextStyle(
-                    color: Colors.grey[600],
+              child: Container(
+                child: TextField(
+                  decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Colors.white,
+                    hintText: 'Email address',
+                    hintStyle: TextStyle(
+                      color: Colors.grey[600],
+                    ),
+                    border: UnderlineInputBorder(),
                   ),
-                  border: UnderlineInputBorder(),
                 ),
               ),
             )
