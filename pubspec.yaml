@@ -32,4 +32,4 @@ flutter:
         - asset: fonts/ArchitectsDaughter-Regular.ttf
     - family: Lato
       fonts:
-        - asset: fonts/Lato-Bold.ttf
+        - asset: fonts/Lato-Regular.ttf
