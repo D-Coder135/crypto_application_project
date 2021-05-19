@@ -34,6 +34,9 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(
+                  height: 90.0,
+                ),
                 SignInButton(Buttons.GoogleDark, onPressed: () {
                   Navigator.push(
                     context,
@@ -54,8 +57,13 @@ class LoginPage extends StatelessWidget {
                     ),
                   );
                 }),
-                SizedBox(
-                  height: 100.0,
+                Text(
+                  'OR',
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'NotoSansJP',
+                  ),
                 ),
                 Column(
                   children: [
