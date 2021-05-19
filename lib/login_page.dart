@@ -6,6 +6,7 @@ class LoginPage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             Expanded(
               child: Container(
