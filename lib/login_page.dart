@@ -7,15 +7,17 @@ class LoginPage extends StatelessWidget {
       child: Scaffold(
         body: Column(
           children: <Widget>[
-            Container(
-              padding: EdgeInsets.only(left: 10.0),
-              child: Text(
-                'Welcome',
-                style: TextStyle(
-                  color: Color(0xFF323232),
-                  fontSize: 50.0,
-                  fontFamily: 'Lato',
-                  fontWeight: FontWeight.bold,
+            Expanded(
+              child: Container(
+                padding: EdgeInsets.only(left: 10.0),
+                child: Text(
+                  'Welcome',
+                  style: TextStyle(
+                    color: Color(0xFF323232),
+                    fontSize: 50.0,
+                    fontFamily: 'Lato',
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
