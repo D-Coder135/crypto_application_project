@@ -120,40 +120,44 @@ class LoginPage extends StatelessWidget {
                 ),
                 Row(
                   children: <Widget>[
-                    Container(
-                      padding: EdgeInsets.all(10.0),
-                      margin: EdgeInsets.all(10.0),
-                      child: Text(
-                        'Sign in',
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 25.0,
-                          fontWeight: FontWeight.bold,
-                          fontFamily: 'NotoSansJP',
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(10.0),
+                        margin: EdgeInsets.all(10.0),
+                        child: Text(
+                          'Sign in',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 25.0,
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'NotoSansJP',
+                          ),
                         ),
                       ),
                     ),
-                    SizedBox(
-                      width: 200.0,
-                    ),
-                    GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) {
-                              return HomePage();
-                            },
+                    // SizedBox(
+                    //   width: 200.0,
+                    // ),
+                    Expanded(
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return HomePage();
+                              },
+                            ),
+                          );
+                        },
+                        child: CircleAvatar(
+                          child: Icon(
+                            Icons.arrow_forward_ios,
+                            color: Colors.white,
                           ),
-                        );
-                      },
-                      child: CircleAvatar(
-                        child: Icon(
-                          Icons.arrow_forward_ios,
-                          color: Colors.white,
+                          backgroundColor: Color(0xFFFA6400),
+                          radius: 40.0,
                         ),
-                        backgroundColor: Color(0xFFFA6400),
-                        radius: 40.0,
                       ),
                     ),
                   ],
