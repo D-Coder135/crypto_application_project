@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Expanded(child: null),
             Expanded(child: null),
