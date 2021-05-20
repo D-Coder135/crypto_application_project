@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFD7E2F3),
       floatingActionButton: FloatingActionButton(
+        mini: true,
         onPressed: () {},
         child: Icon(Icons.add),
         backgroundColor: Colors.blue[700],
