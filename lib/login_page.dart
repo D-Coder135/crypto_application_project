@@ -121,6 +121,7 @@ class LoginPage extends StatelessWidget {
                 Row(
                   children: <Widget>[
                     Expanded(
+                      flex: 3,
                       child: Container(
                         padding: EdgeInsets.all(10.0),
                         margin: EdgeInsets.all(10.0),
