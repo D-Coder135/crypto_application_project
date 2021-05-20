@@ -6,5 +6,5 @@ class NetworkHelper {
 
   NetworkHelper(this.url);
 
-  Future getData() {}
+  Future getData() async {}
 }
