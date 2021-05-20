@@ -6,5 +6,6 @@ class CryptoData {
   Future<dynamic> getCryptoData(var selectedCurrency) async {
     NetworkHelper networkHelper =
         NetworkHelper('$coinCapURL/$selectedCurrency');
+    var currencyData = networkHelper.getData();
   }
 }
