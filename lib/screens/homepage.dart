@@ -85,7 +85,7 @@ class HomePage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text(
-                          'Bitcoin(BTC)',
+                          'Ethereum(ETH)',
                           style: TextStyle(
                             fontSize: 21.0,
                             fontWeight: FontWeight.bold,
