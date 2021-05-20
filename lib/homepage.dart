@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Color(0xFFD7E2F3),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.blue[700],
       ),
       body: SafeArea(
         child: Column(),
