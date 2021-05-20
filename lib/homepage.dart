@@ -23,10 +23,38 @@ class HomePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10.0)),
               ),
             ),
-            Expanded(child: null),
-            Expanded(child: null),
-            Expanded(child: null),
-            Expanded(child: null),
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(15.0),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10.0)),
+              ),
+            ),
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(15.0),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10.0)),
+              ),
+            ),
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(15.0),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10.0)),
+              ),
+            ),
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(15.0),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10.0)),
+              ),
+            ),
           ],
         ),
       ),
