@@ -136,9 +136,6 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    // SizedBox(
-                    //   width: 200.0,
-                    // ),
                     Expanded(
                       child: GestureDetector(
                         onTap: () {
