@@ -14,6 +14,7 @@ class _HomePageState extends State<HomePage> {
 
   void getCurrentRate() async {
     var data = await CryptoData().getCryptoData(selectedCurrency);
+    setState(() {});
   }
 
   @override
