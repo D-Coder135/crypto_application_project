@@ -15,7 +15,9 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Expanded(child: null),
+            Expanded(
+              child: Container(),
+            ),
             Expanded(child: null),
             Expanded(child: null),
             Expanded(child: null),
