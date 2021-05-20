@@ -28,6 +28,7 @@ class HomePage extends StatelessWidget {
                       radius: 40.0,
                     ),
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text(
                           'Bitcoin(BTC)',
