@@ -13,7 +13,13 @@ class HomePage extends StatelessWidget {
       ),
       body: SafeArea(
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+            Expanded(child: null),
+            Expanded(child: null),
+            Expanded(child: null),
+            Expanded(child: null),
+            Expanded(child: null),
+          ],
         ),
       ),
     );
