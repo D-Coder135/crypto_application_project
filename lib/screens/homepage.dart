@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                       radius: 40.0,
                     ),
                     Column(
-                      children: [
+                      children: <Widget>[
                         Text(
                           'Bitcoin(BTC)',
                           style: TextStyle(
