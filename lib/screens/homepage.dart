@@ -78,7 +78,7 @@ class HomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundImage: AssetImage('images/Bitcoin.png'),
+                      backgroundImage: AssetImage('images/Ethereum.png'),
                       radius: 40.0,
                     ),
                     Column(
