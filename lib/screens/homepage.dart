@@ -254,7 +254,7 @@ class HomePage extends StatelessWidget {
                             '\$45324',
                             style: TextStyle(
                               fontSize: 17.0,
-                              color: Color(0xFFF29726),
+                              color: Colors.orange[700],
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -266,7 +266,7 @@ class HomePage extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
-                        color: Color(0xFFF29726),
+                        color: Colors.orange[800],
                       ),
                     ),
                   ],
