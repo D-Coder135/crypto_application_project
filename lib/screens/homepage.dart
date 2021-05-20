@@ -35,6 +35,7 @@ class HomePage extends StatelessWidget {
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Farro',
+                            letterSpacing: 2.5,
                           ),
                         ),
                       ],
