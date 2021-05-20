@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
                     color: Color(0xFFFCE5C9),
                     borderRadius: BorderRadius.circular(10.0)),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     CircleAvatar(
                       backgroundImage: AssetImage('images/Bitcoin.png'),
