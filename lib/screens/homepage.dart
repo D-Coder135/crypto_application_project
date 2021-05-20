@@ -26,7 +26,15 @@ class HomePage extends StatelessWidget {
                     CircleAvatar(
                       backgroundImage: AssetImage('images/Bitcoin.png'),
                       radius: 40.0,
-                    )
+                    ),
+                    Text(
+                      'Bitcoin(BTC)',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'NotoSansJP',
+                      ),
+                    ),
                   ],
                 ),
               ),
