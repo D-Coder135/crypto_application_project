@@ -8,6 +8,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String selectedCurrency = 'bitcoin';
+  var currentRateInUSD = '';
 
   @override
   Widget build(BuildContext context) {
