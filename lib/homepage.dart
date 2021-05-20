@@ -12,7 +12,9 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.blue[700],
       ),
       body: SafeArea(
-        child: Column(),
+        child: Column(
+          children: <Widget>[],
+        ),
       ),
     );
   }
