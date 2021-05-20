@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
                         Text(
                           'Bitcoin(BTC)',
                           style: TextStyle(
-                            fontSize: 22.0,
+                            fontSize: 21.0,
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Farro',
                             letterSpacing: 2.0,
