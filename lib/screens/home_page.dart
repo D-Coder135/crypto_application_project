@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/crypto_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -11,7 +12,9 @@ class _HomePageState extends State<HomePage> {
   var currentRateInUSD = '';
   var currentRateInINR = '';
 
-  void getCurrentRate() async {}
+  void getCurrentRate() async {
+    var data = await CryptoData().getCryptoData(selectedCurrency);
+  }
 
   @override
   Widget build(BuildContext context) {
