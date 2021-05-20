@@ -11,7 +11,7 @@ class _HomePageState extends State<HomePage> {
   var currentRateInUSD = '';
   var currentRateInINR = '';
 
-  void getCurrentRate() {}
+  void getCurrentRate() async {}
 
   @override
   Widget build(BuildContext context) {
