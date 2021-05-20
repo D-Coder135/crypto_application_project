@@ -136,12 +136,12 @@ class HomePage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text(
-                          'Bitcoin(BTC)',
+                          'BTC Cash(BCH)',
                           style: TextStyle(
                             fontSize: 21.0,
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Farro',
-                            letterSpacing: 2.0,
+                            letterSpacing: 1.0,
                           ),
                         ),
                         Container(
