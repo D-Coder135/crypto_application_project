@@ -13,10 +13,14 @@ class _HomePageState extends State<HomePage> {
   var currentRateInINR = '';
 
   void getCurrentRate() async {
-    var data = await CryptoData().getCryptoData(selectedCurrency);
-    setState(() {
-      currentRateInUSD = data['data']['rateUsd'].toStringAsFixed(0);
-    });
+    try {
+      var data = await CryptoData().getCryptoData(selectedCurrency);
+      setState(() {
+        currentRateInUSD = data['data']['rateUsd'].toStringAsFixed(0);
+      });
+    } catch (exception) {
+      print(exception);
+    }
   }
 
   @override
