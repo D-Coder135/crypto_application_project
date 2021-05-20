@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'front_page.dart';
+import 'screens/front_page.dart';
 
 void main() => runApp(CryptoApp());
 
