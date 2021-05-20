@@ -20,23 +20,25 @@ class LoginPage extends StatelessWidget {
             ),
             Column(
               children: <Widget>[
-                Container(
-                  margin: EdgeInsets.only(top: 25.0),
-                  alignment: Alignment.topLeft,
-                  padding: EdgeInsets.only(left: 10.0),
-                  child: Text(
-                    'Welcome!',
-                    style: TextStyle(
-                      color: Color(0xFF323232),
-                      fontSize: 50.0,
-                      fontFamily: 'NunitoSans',
-                      fontWeight: FontWeight.bold,
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.only(top: 25.0),
+                    alignment: Alignment.topLeft,
+                    padding: EdgeInsets.only(left: 10.0),
+                    child: Text(
+                      'Welcome! Sign in to your account to continue =>',
+                      style: TextStyle(
+                        color: Color(0xFF323232),
+                        fontSize: 30.0,
+                        fontFamily: 'NunitoSans',
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: 90.0,
-                ),
+                // SizedBox(
+                //   height: 90.0,
+                // ),
                 SignInButton(Buttons.GoogleDark, onPressed: () {
                   Navigator.push(
                     context,
@@ -57,9 +59,9 @@ class LoginPage extends StatelessWidget {
                     ),
                   );
                 }),
-                SizedBox(
-                  height: 10.0,
-                ),
+                // SizedBox(
+                //   height: 10.0,
+                // ),
                 Text(
                   'OR',
                   style: TextStyle(
@@ -68,9 +70,9 @@ class LoginPage extends StatelessWidget {
                     fontFamily: 'NotoSansJP',
                   ),
                 ),
-                SizedBox(
-                  height: 10.0,
-                ),
+                // SizedBox(
+                //   height: 10.0,
+                // ),
                 Column(
                   children: [
                     Container(
@@ -115,9 +117,9 @@ class LoginPage extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(
-                  height: 200.0,
-                ),
+                // SizedBox(
+                //   height: 200.0,
+                // ),
                 Row(
                   children: <Widget>[
                     Expanded(
