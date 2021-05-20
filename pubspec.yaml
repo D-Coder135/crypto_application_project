@@ -34,3 +34,6 @@ flutter:
     - family: NunitoSans
       fonts:
         - asset: fonts/NunitoSans-Regular.ttf
+    - family: Farro
+      fonts:
+        - asset: fonts/Farro-Regular.ttf
