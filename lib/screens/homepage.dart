@@ -33,15 +33,15 @@ class HomePage extends StatelessWidget {
                         Text(
                           'Bitcoin(BTC)',
                           style: TextStyle(
-                            fontSize: 20.0,
+                            fontSize: 22.0,
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Farro',
-                            letterSpacing: 2.5,
+                            letterSpacing: 2.0,
                           ),
                         ),
                         Container(
                           alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(top: 10.0, right: 60.0),
+                          margin: EdgeInsets.only(top: 5.0, right: 60.0),
                           child: Text(
                             '\$45324',
                             style: TextStyle(
@@ -52,6 +52,14 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                       ],
+                    ),
+                    Text(
+                      'Rs 123565',
+                      style: TextStyle(
+                        fontSize: 19.0,
+                        fontWeight: FontWeight.w900,
+                        color: Color(0xFFF29726),
+                      ),
                     ),
                   ],
                 ),
