@@ -110,10 +110,9 @@ class HomePage extends StatelessWidget {
                     Text(
                       'Rs 123565',
                       style: TextStyle(
-                        fontSize: 19.0,
-                        fontWeight: FontWeight.w900,
-                        color: Color(0xFFF29726),
-                      ),
+                          fontSize: 19.0,
+                          fontWeight: FontWeight.w900,
+                          color: Colors.lightBlue[800]),
                     ),
                   ],
                 ),
