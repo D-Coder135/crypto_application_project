@@ -21,6 +21,9 @@ class HomePage extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: Color(0xFFFCE5C9),
                     borderRadius: BorderRadius.circular(10.0)),
+                child: Row(
+                  children: <Widget>[],
+                ),
               ),
             ),
             Expanded(
