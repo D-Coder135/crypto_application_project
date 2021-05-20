@@ -7,5 +7,6 @@ class CryptoData {
     NetworkHelper networkHelper =
         NetworkHelper('$coinCapURL/$selectedCurrency');
     var currencyData = await networkHelper.getData();
+    return currencyData;
   }
 }
