@@ -27,13 +27,17 @@ class HomePage extends StatelessWidget {
                       backgroundImage: AssetImage('images/Bitcoin.png'),
                       radius: 40.0,
                     ),
-                    Text(
-                      'Bitcoin(BTC)',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        fontFamily: 'NotoSansJP',
-                      ),
+                    Column(
+                      children: [
+                        Text(
+                          'Bitcoin(BTC)',
+                          style: TextStyle(
+                            fontSize: 20.0,
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'NotoSansJP',
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
