@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
                             '\$45324',
                             style: TextStyle(
                               fontSize: 17.0,
-                              color: Color(0xFFF29726),
+                              color: Colors.lightBlue[700],
                               fontWeight: FontWeight.bold,
                             ),
                           ),
