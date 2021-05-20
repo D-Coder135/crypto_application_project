@@ -198,7 +198,7 @@ class HomePage extends StatelessWidget {
                         ),
                         Container(
                           alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(top: 5.0, right: 60.0),
+                          margin: EdgeInsets.only(top: 5.0, right: 70.0),
                           child: Text(
                             '\$45324',
                             style: TextStyle(
