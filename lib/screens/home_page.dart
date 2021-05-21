@@ -283,7 +283,7 @@ class _HomePageState extends State<HomePage> {
                             '\$45324',
                             style: TextStyle(
                               fontSize: 17.0,
-                              color: Colors.orange[700],
+                              color: Colors.indigo[800],
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -295,7 +295,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
-                        color: Colors.orange[800],
+                        color: Colors.indigo[900],
                       ),
                     ),
                   ],
