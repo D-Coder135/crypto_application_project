@@ -10,6 +10,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String selectedCurrency = 'bitcoin';
   var currentRateInUSD;
+  var currentRateInINR;
 
   void getCurrentRate() async {
     try {
@@ -17,6 +18,7 @@ class _HomePageState extends State<HomePage> {
       setState(() {
         var currentRateInUSDInString = data['data']['rateUsd'];
         currentRateInUSD = double.parse(currentRateInUSDInString).toInt();
+        currentRateInINR = currentRateInUSD * 72;
       });
     } catch (exception) {
       print(exception);
@@ -83,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ ${currentRateInUSD * 72}',
+                      '₹ $currentRateInINR',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
