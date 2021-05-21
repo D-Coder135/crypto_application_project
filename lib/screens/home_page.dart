@@ -37,12 +37,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFD7E2F3),
-      floatingActionButton: FloatingActionButton(
-        mini: true,
-        onPressed: () {},
-        child: Icon(Icons.add),
-        backgroundColor: Colors.blue[700],
-      ),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
