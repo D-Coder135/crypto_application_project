@@ -36,6 +36,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    getDataInINR();
     return Scaffold(
       backgroundColor: Color(0xFFD7E2F3),
       floatingActionButton: FloatingActionButton(
