@@ -178,7 +178,7 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(top: 5.0, right: 90.0),
                           child: Text(
-                            '\$45324',
+                            '\$ ${currentRateInUSD[2]}',
                             style: TextStyle(
                               fontSize: 17.0,
                               color: Colors.orange[700],
@@ -189,7 +189,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ 123565',
+                      '₹ ${currentRateInINR[2]}',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
@@ -230,7 +230,7 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(top: 5.0, right: 90.0),
                           child: Text(
-                            '\$45324',
+                            '\$ ${currentRateInUSD[3]}',
                             style: TextStyle(
                               fontSize: 17.0,
                               color: Colors.purple[700],
@@ -241,7 +241,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ 123565',
+                      '₹ ${currentRateInINR[3]}',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
@@ -282,7 +282,7 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(top: 5.0, right: 70.0),
                           child: Text(
-                            '\$45324',
+                            '\$ ${currentRateInUSD[4]}',
                             style: TextStyle(
                               fontSize: 17.0,
                               color: Colors.indigo[800],
@@ -293,7 +293,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ 123565',
+                      '₹ ${currentRateInINR[4]}',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
