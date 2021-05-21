@@ -24,6 +24,8 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  void getDataInINR(var currencyInUSD) {}
+
   @override
   void initState() {
     super.initState();
