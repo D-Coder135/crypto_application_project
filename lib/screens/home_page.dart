@@ -148,56 +148,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Expanded(
-              child: Container(
-                margin: EdgeInsets.all(20.0),
-                decoration: BoxDecoration(
-                  color: Colors.lightGreen[200],
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    CircleAvatar(
-                      backgroundImage: AssetImage('images/BitcoinCash.png'),
-                      radius: 40.0,
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          'BTC Cash(BCH)',
-                          style: TextStyle(
-                            fontSize: 21.0,
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Farro',
-                            letterSpacing: 1.0,
-                          ),
-                        ),
-                        Container(
-                          alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(top: 5.0, right: 90.0),
-                          child: Text(
-                            '\$45324',
-                            style: TextStyle(
-                              fontSize: 17.0,
-                              color: Colors.green[700],
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '₹ 123565',
-                      style: TextStyle(
-                        fontSize: 19.0,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green[800],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              child:
             ),
             Expanded(
               child: Container(
