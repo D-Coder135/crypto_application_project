@@ -268,7 +268,7 @@ class _HomePageState extends State<HomePage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text(
-                          'Dogecoin(DOGE)',
+                          'Dash(DAO)',
                           style: TextStyle(
                             fontSize: 21.0,
                             fontWeight: FontWeight.bold,
