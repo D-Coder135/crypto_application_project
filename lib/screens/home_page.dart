@@ -80,56 +80,6 @@ class _HomePageState extends State<HomePage> {
                 '₹ ${currentRateInINR[2]}',
                 Colors.orange[800],
               ),
-              // child: Container(
-              //   margin: EdgeInsets.all(20.0),
-              //   decoration: BoxDecoration(
-              //     color: Color(0xFFF4D96B),
-              //     borderRadius: BorderRadius.circular(10.0),
-              //   ),
-              //   child: Row(
-              //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              //     children: <Widget>[
-              //       CircleAvatar(
-              //         backgroundImage: AssetImage('images/Dogecoin.png'),
-              //         radius: 40.0,
-              //       ),
-              //       Column(
-              //         mainAxisAlignment: MainAxisAlignment.center,
-              //         children: <Widget>[
-              //           Text(
-              //             'Dogecoin(DOGE)',
-              //             style: TextStyle(
-              //               fontSize: 21.0,
-              //               fontWeight: FontWeight.bold,
-              //               fontFamily: 'Farro',
-              //               letterSpacing: 2.0,
-              //             ),
-              //           ),
-              //           Container(
-              //             alignment: Alignment.centerLeft,
-              //             margin: EdgeInsets.only(top: 5.0, right: 150.0),
-              //             child: Text(
-              //               '\$ ${currentRateInUSD[2]}',
-              //               style: TextStyle(
-              //                 fontSize: 17.0,
-              //                 color: Colors.orange[700],
-              //                 fontWeight: FontWeight.bold,
-              //               ),
-              //             ),
-              //           ),
-              //         ],
-              //       ),
-              //       Text(
-              //         '₹ ${currentRateInINR[2]}',
-              //         style: TextStyle(
-              //           fontSize: 19.0,
-              //           fontWeight: FontWeight.w900,
-              //           color: Colors.orange[800],
-              //         ),
-              //       ),
-              //     ],
-              //   ),
-              // ),
             ),
             Expanded(
               child: Container(
