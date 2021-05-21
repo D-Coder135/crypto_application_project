@@ -10,7 +10,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String selectedCurrency = 'bitcoin';
   var currentRateInUSD;
-  var currentRateInINR;
 
   void getCurrentRate() async {
     try {
@@ -24,10 +23,6 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  void getDataInINR() {
-    currentRateInINR = (72 * currentRateInUSD);
-  }
-
   @override
   void initState() {
     super.initState();
@@ -36,7 +31,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    getDataInINR();
     return Scaffold(
       backgroundColor: Color(0xFFD7E2F3),
       floatingActionButton: FloatingActionButton(
@@ -89,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ $currentRateInINR',
+                      '₹ ${currentRateInUSD * 72}',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
