@@ -170,7 +170,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         Container(
                           alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(top: 5.0, right: 90.0),
+                          margin: EdgeInsets.only(top: 5.0, right: 150.0),
                           child: Text(
                             '\$ ${currentRateInUSD[2]}',
                             style: TextStyle(
