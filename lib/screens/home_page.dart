@@ -254,7 +254,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 margin: EdgeInsets.all(20.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFFF4D96B),
+                  color: Color(0xFF416BA3),
                   borderRadius: BorderRadius.circular(10.0),
                 ),
                 child: Row(
