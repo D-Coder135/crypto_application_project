@@ -261,7 +261,7 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundImage: AssetImage('images/Dogecoin.png'),
+                      backgroundImage: AssetImage('images/Dash.png'),
                       radius: 40.0,
                     ),
                     Column(
