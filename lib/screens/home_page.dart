@@ -209,7 +209,7 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundImage: AssetImage('images/Ripple.png'),
+                      backgroundImage: AssetImage('images/Litecoin.png'),
                       radius: 40.0,
                     ),
                     Column(
