@@ -278,7 +278,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         Container(
                           alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(top: 5.0, right: 90.0),
+                          margin: EdgeInsets.only(top: 5.0, right: 70.0),
                           child: Text(
                             '\$45324',
                             style: TextStyle(
