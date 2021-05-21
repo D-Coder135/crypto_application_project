@@ -56,56 +56,56 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Expanded(
-              child: Container(
-                margin: EdgeInsets.all(20.0),
-                decoration: BoxDecoration(
-                  color: Colors.lightBlueAccent[100],
-                  borderRadius: BorderRadius.circular(10.0),
+                // child: Container(
+                //   margin: EdgeInsets.all(20.0),
+                //   decoration: BoxDecoration(
+                //     color: Colors.lightBlueAccent[100],
+                //     borderRadius: BorderRadius.circular(10.0),
+                //   ),
+                //   child: Row(
+                //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                //     children: <Widget>[
+                //       CircleAvatar(
+                //         backgroundImage: AssetImage('images/Ethereum.png'),
+                //         radius: 40.0,
+                //       ),
+                //       Column(
+                //         mainAxisAlignment: MainAxisAlignment.center,
+                //         children: <Widget>[
+                //           Text(
+                //             'Ethereum(ETH)',
+                //             style: TextStyle(
+                //               fontSize: 21.0,
+                //               fontWeight: FontWeight.bold,
+                //               fontFamily: 'Farro',
+                //               letterSpacing: 2.0,
+                //             ),
+                //           ),
+                //           Container(
+                //             alignment: Alignment.centerLeft,
+                //             margin: EdgeInsets.only(top: 5.0, right: 100.0),
+                //             child: Text(
+                //               '\$ ${currentRateInUSD[1]}',
+                //               style: TextStyle(
+                //                 fontSize: 17.0,
+                //                 color: Colors.lightBlue[700],
+                //                 fontWeight: FontWeight.bold,
+                //               ),
+                //             ),
+                //           ),
+                //         ],
+                //       ),
+                //       Text(
+                //         '₹ ${currentRateInINR[1]}',
+                //         style: TextStyle(
+                //             fontSize: 19.0,
+                //             fontWeight: FontWeight.w900,
+                //             color: Colors.lightBlue[800]),
+                //       ),
+                //     ],
+                //   ),
+                // ),
                 ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    CircleAvatar(
-                      backgroundImage: AssetImage('images/Ethereum.png'),
-                      radius: 40.0,
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          'Ethereum(ETH)',
-                          style: TextStyle(
-                            fontSize: 21.0,
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Farro',
-                            letterSpacing: 2.0,
-                          ),
-                        ),
-                        Container(
-                          alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(top: 5.0, right: 100.0),
-                          child: Text(
-                            '\$ ${currentRateInUSD[1]}',
-                            style: TextStyle(
-                              fontSize: 17.0,
-                              color: Colors.lightBlue[700],
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '₹ ${currentRateInINR[1]}',
-                      style: TextStyle(
-                          fontSize: 19.0,
-                          fontWeight: FontWeight.w900,
-                          color: Colors.lightBlue[800]),
-                    ),
-                  ],
-                ),
-              ),
-            ),
             Expanded(
               child: Container(
                 margin: EdgeInsets.all(20.0),
