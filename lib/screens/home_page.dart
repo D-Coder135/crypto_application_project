@@ -10,7 +10,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String selectedCurrency = 'bitcoin';
   var currentRateInUSD;
-  var currentRateInINR = '';
+  var currentRateInINR;
 
   void getCurrentRate() async {
     try {
@@ -24,7 +24,9 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  void getDataInINR(var currencyInUSD) {}
+  void getDataInINR() {
+    currentRateInINR = (72 * currentRateInUSD);
+  }
 
   @override
   void initState() {
@@ -86,7 +88,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ 123565',
+                      '₹ $currentRateInINR',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
