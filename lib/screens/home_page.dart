@@ -8,18 +8,20 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String selectedCurrency = 'bitcoin';
-  var currentRateInUSD;
-  var currentRateInINR;
+  // String selectedCurrency = 'bitcoin';
+  List<dynamic> currentRateInUSD = [];
+  List<dynamic> currentRateInINR = [];
 
   void getCurrentRate() async {
     try {
-      var data = await CryptoData().getCryptoData(selectedCurrency);
-      setState(() {
-        var currentRateInUSDInString = data['data']['rateUsd'];
-        currentRateInUSD = double.parse(currentRateInUSDInString).toInt();
-        currentRateInINR = currentRateInUSD * 72;
-      });
+      for (int index = 0; index < 2; index++) {
+        var data = await CryptoData().getCryptoData(index);
+        setState(() {
+          var currentRateInUSDInString = data['data']['rateUsd'];
+          currentRateInUSD.add(double.parse(currentRateInUSDInString).toInt());
+          currentRateInINR.add(currentRateInUSD[index] * 72);
+        });
+      }
     } catch (exception) {
       print(exception);
     }
@@ -74,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(top: 5.0, right: 80.0),
                           child: Text(
-                            '\$ $currentRateInUSD',
+                            '\$ ${currentRateInUSD[0]}',
                             style: TextStyle(
                               fontSize: 17.0,
                               color: Color(0xFFF29726),
@@ -85,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ $currentRateInINR',
+                      '₹ ${currentRateInINR[0]}',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
@@ -126,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(top: 5.0, right: 100.0),
                           child: Text(
-                            '\$45324',
+                            '\$ ${currentRateInUSD[1]}',
                             style: TextStyle(
                               fontSize: 17.0,
                               color: Colors.lightBlue[700],
@@ -137,7 +139,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      '₹ 123565',
+                      '₹ ${currentRateInINR[1]}',
                       style: TextStyle(
                           fontSize: 19.0,
                           fontWeight: FontWeight.w900,
