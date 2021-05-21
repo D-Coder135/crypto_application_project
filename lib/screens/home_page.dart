@@ -273,6 +273,7 @@ class _HomePageState extends State<HomePage> {
                             fontSize: 21.0,
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Farro',
+                            letterSpacing: 4.0,
                           ),
                         ),
                         Container(
