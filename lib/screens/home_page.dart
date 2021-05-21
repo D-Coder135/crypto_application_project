@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
 
   void getCurrentRate() async {
     try {
-      for (int index = 0; index < 2; index++) {
+      for (int index = 0; index < cryptoCurrenciesList.length; index++) {
         var data = await CryptoData().getCryptoData(index);
         setState(() {
           var currentRateInUSDInString = data['data']['rateUsd'];
