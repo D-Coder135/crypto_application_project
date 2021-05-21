@@ -9,16 +9,15 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String selectedCurrency = 'bitcoin';
-  var currentRateInUSDInString = '';
   var currentRateInUSD;
   var currentRateInINR = '';
 
   void getCurrentRate() async {
     try {
       var data = await CryptoData().getCryptoData(selectedCurrency);
-      currentRateInUSD = double.parse(currentRateInUSDInString).toInt();
       setState(() {
-        currentRateInUSDInString = data['data']['rateUsd'];
+        var currentRateInUSDInString = data['data']['rateUsd'];
+        currentRateInUSD = double.parse(currentRateInUSDInString).toInt();
       });
     } catch (exception) {
       print(exception);
