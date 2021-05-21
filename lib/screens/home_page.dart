@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      'Rs 123565',
+                      '₹ 123565',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
@@ -137,7 +137,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      'Rs 123565',
+                      '₹ 123565',
                       style: TextStyle(
                           fontSize: 19.0,
                           fontWeight: FontWeight.w900,
@@ -188,7 +188,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      'Rs 123565',
+                      '₹ 123565',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
@@ -240,7 +240,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      'Rs 123565',
+                      '₹ 123565',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
@@ -291,7 +291,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     Text(
-                      'Rs 123565',
+                      '₹ 123565',
                       style: TextStyle(
                         fontSize: 19.0,
                         fontWeight: FontWeight.w900,
