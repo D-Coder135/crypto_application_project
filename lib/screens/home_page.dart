@@ -95,57 +95,68 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Expanded(
-                // child: Container(
-                //   margin: EdgeInsets.all(20.0),
-                //   decoration: BoxDecoration(
-                //     color: Color(0xFF416BA3),
-                //     borderRadius: BorderRadius.circular(10.0),
-                //   ),
-                //   child: Row(
-                //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                //     children: <Widget>[
-                //       CircleAvatar(
-                //         backgroundImage: AssetImage('images/Dash.png'),
-                //         radius: 40.0,
-                //       ),
-                //       Column(
-                //         mainAxisAlignment: MainAxisAlignment.center,
-                //         children: <Widget>[
-                //           Text(
-                //             'Dash(DAO)',
-                //             style: TextStyle(
-                //               fontSize: 21.0,
-                //               fontWeight: FontWeight.bold,
-                //               fontFamily: 'Farro',
-                //               letterSpacing: 4.0,
-                //             ),
-                //           ),
-                //           Container(
-                //             alignment: Alignment.centerLeft,
-                //             margin: EdgeInsets.only(top: 5.0, right: 70.0),
-                //             child: Text(
-                //               '\$ ${currentRateInUSD[4]}',
-                //               style: TextStyle(
-                //                 fontSize: 17.0,
-                //                 color: Colors.indigo[800],
-                //                 fontWeight: FontWeight.bold,
-                //               ),
-                //             ),
-                //           ),
-                //         ],
-                //       ),
-                //       Text(
-                //         '₹ ${currentRateInINR[4]}',
-                //         style: TextStyle(
-                //           fontSize: 19.0,
-                //           fontWeight: FontWeight.w900,
-                //           color: Colors.indigo[900],
-                //         ),
-                //       ),
-                //     ],
-                //   ),
-                // ),
-                ),
+              child: ReusableCard(
+                Color(0xFF416BA3),
+                'images/Dash.png',
+                'Dash(DAO)',
+                4.0,
+                70.0,
+                '\$ ${currentRateInUSD[4]}',
+                Colors.indigo[800],
+                '₹ ${currentRateInINR[4]}',
+                Colors.indigo[900],
+              ),
+              // child: Container(
+              //   margin: EdgeInsets.all(20.0),
+              //   decoration: BoxDecoration(
+              //     color: Color(0xFF416BA3),
+              //     borderRadius: BorderRadius.circular(10.0),
+              //   ),
+              //   child: Row(
+              //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              //     children: <Widget>[
+              //       CircleAvatar(
+              //         backgroundImage: AssetImage('images/Dash.png'),
+              //         radius: 40.0,
+              //       ),
+              //       Column(
+              //         mainAxisAlignment: MainAxisAlignment.center,
+              //         children: <Widget>[
+              //           Text(
+              //             'Dash(DAO)',
+              //             style: TextStyle(
+              //               fontSize: 21.0,
+              //               fontWeight: FontWeight.bold,
+              //               fontFamily: 'Farro',
+              //               letterSpacing: 4.0,
+              //             ),
+              //           ),
+              //           Container(
+              //             alignment: Alignment.centerLeft,
+              //             margin: EdgeInsets.only(top: 5.0, right: 70.0),
+              //             child: Text(
+              //               '\$ ${currentRateInUSD[4]}',
+              //               style: TextStyle(
+              //                 fontSize: 17.0,
+              //                 color: Colors.indigo[800],
+              //                 fontWeight: FontWeight.bold,
+              //               ),
+              //             ),
+              //           ),
+              //         ],
+              //       ),
+              //       Text(
+              //         '₹ ${currentRateInINR[4]}',
+              //         style: TextStyle(
+              //           fontSize: 19.0,
+              //           fontWeight: FontWeight.w900,
+              //           color: Colors.indigo[900],
+              //         ),
+              //       ),
+              //     ],
+              //   ),
+              // ),
+            ),
           ],
         ),
       ),
