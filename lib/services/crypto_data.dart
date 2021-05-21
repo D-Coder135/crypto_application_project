@@ -1,4 +1,4 @@
-import 'package:demo_crypto_app/networking.dart';
+import 'package:demo_crypto_app/services/networking.dart';
 
 const coinCapURL = 'https://api.coincap.io/v2/rates';
 

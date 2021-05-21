@@ -1,4 +1,4 @@
-import 'package:demo_crypto_app/crypto_data.dart';
+import 'package:demo_crypto_app/services/crypto_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
