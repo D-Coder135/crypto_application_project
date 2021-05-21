@@ -9,14 +9,15 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String selectedCurrency = 'bitcoin';
-  var currentRateInUSD = '';
+  var currentRateInUSDInString = '';
+  var currentRateInUSD;
   var currentRateInINR = '';
 
   void getCurrentRate() async {
     try {
       var data = await CryptoData().getCryptoData(selectedCurrency);
       setState(() {
-        currentRateInUSD = data['data']['rateUsd'].toStringAsFixed(0);
+        currentRateInUSDInString = data['data']['rateUsd'];
       });
     } catch (exception) {
       print(exception);
@@ -72,7 +73,7 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(top: 5.0, right: 80.0),
                           child: Text(
-                            '\$45324',
+                            '\$ $currentRateInUSD',
                             style: TextStyle(
                               fontSize: 17.0,
                               color: Color(0xFFF29726),
