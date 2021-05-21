@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class ReusableCard extends StatelessWidget {
-  // const ReusbaleCard({Key key}) : super(key: key);
-
   final Color colour;
   final String imageFileName;
   final String text;
