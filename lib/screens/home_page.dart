@@ -46,6 +46,7 @@ class _HomePageState extends State<HomePage> {
             var currentRateInUSDInString = data['data']['rateUsd'];
             currentRateInUSDDogeCoin =
                 double.parse(currentRateInUSDInString).toInt();
+            currentRateInINRDogeCoin = currentRateInUSDDogeCoin * 72;
           });
         } else if (index == 3) {
           setState(() {
