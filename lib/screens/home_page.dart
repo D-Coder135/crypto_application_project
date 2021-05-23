@@ -14,6 +14,7 @@ class _HomePageState extends State<HomePage> {
   // List<dynamic> currentRateInINR = [];
   var currentRateInUSDBitcoin;
   var currentRateInUSDEthereum;
+  var currentRateInUSDDogecoin;
 
   void getCurrentRate() async {
     try {
