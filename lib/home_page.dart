@@ -1,5 +1,4 @@
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
-import 'package:demo_crypto_app/services/reusable_card.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
