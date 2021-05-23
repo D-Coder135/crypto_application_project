@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   var currentRateInUSDLitecoin;
   var currentRateInUSDDash;
   var currentRateInINRBitcoin;
+  var currentRateInINREthereum;
 
   void getCurrentRate() async {
     try {
