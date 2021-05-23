@@ -22,6 +22,14 @@ class _HomePageState extends State<HomePage> {
     try {
       for (int index = 0; index < cryptoCurrenciesList.length; index++) {
         var data = await CryptoData().getCryptoData(index);
+        if (index == 0) {
+          setState(() {
+            var currentRateInUSDInString = data['data']['rateUsd'];
+            currentRateInUSDBitcoin =
+                double.parse(currentRateInUSDInString).toInt();
+          });
+        }
+
         // setState(() {
         //   var currentRateInUSDInString = data['data']['rateUsd'];
         //   currentRateInUSD.add(double.parse(currentRateInUSDInString).toInt());
