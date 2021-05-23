@@ -9,9 +9,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  // String selectedCurrency = 'bitcoin';
-  List<dynamic> currentRateInUSD = [];
-  List<dynamic> currentRateInINR = [];
+  // // String selectedCurrency = 'bitcoin';
+  // List<dynamic> currentRateInUSD = [];
+  // List<dynamic> currentRateInINR = [];
 
   void getCurrentRate() async {
     try {
