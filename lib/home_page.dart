@@ -1,3 +1,5 @@
+import 'package:demo_crypto_app/screens/crypto_list_page.dart';
+import 'package:demo_crypto_app/services/reusable_card.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -22,6 +24,23 @@ class _HomePageState extends State<HomePage> {
             fontFamily: 'Farro',
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(
+          Icons.add,
+          color: Colors.black,
+        ),
+        backgroundColor: Colors.blueGrey[500],
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) {
+                return CryptoList();
+              },
+            ),
+          );
+        },
       ),
     );
   }
