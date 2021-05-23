@@ -12,6 +12,7 @@ class _HomePageState extends State<HomePage> {
   // // String selectedCurrency = 'bitcoin';
   // List<dynamic> currentRateInUSD = [];
   // List<dynamic> currentRateInINR = [];
+  var currentRateInUSDBitcoin;
 
   void getCurrentRate() async {
     try {
