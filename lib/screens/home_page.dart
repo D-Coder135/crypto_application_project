@@ -60,6 +60,7 @@ class _HomePageState extends State<HomePage> {
             var currentRateInUSDInString = data['data']['rateUsd'];
             currentRateInUSDDash =
                 double.parse(currentRateInUSDInString).toInt();
+            currentRateInINRDash = currentRateInUSDDash * 72;
           });
         }
 
