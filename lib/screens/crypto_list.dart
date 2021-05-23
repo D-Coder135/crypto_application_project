@@ -3,12 +3,12 @@ import 'package:demo_crypto_app/services/crypto_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class HomePage extends StatefulWidget {
+class CryptoList extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _CryptoListState createState() => _CryptoListState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _CryptoListState extends State<CryptoList> {
   // // String selectedCurrency = 'bitcoin';
   // List<dynamic> currentRateInUSD = [];
   // List<dynamic> currentRateInINR = [];

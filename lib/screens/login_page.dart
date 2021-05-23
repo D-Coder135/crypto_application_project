@@ -1,4 +1,4 @@
-import 'package:demo_crypto_app/screens/home_page.dart';
+import 'package:demo_crypto_app/screens/crypto_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
@@ -41,7 +41,7 @@ class LoginPage extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return HomePage();
+                        return CryptoList();
                       },
                     ),
                   );
@@ -51,7 +51,7 @@ class LoginPage extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return HomePage();
+                        return CryptoList();
                       },
                     ),
                   );
@@ -133,7 +133,7 @@ class LoginPage extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return HomePage();
+                                return CryptoList();
                               },
                             ),
                           );
