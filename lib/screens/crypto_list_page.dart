@@ -9,9 +9,6 @@ class CryptoList extends StatefulWidget {
 }
 
 class _CryptoListState extends State<CryptoList> {
-  // // String selectedCurrency = 'bitcoin';
-  // List<dynamic> currentRateInUSD = [];
-  // List<dynamic> currentRateInINR = [];
   var currentRateInUSDBitcoin;
   var currentRateInUSDEthereum;
   var currentRateInUSDDogeCoin;
@@ -63,12 +60,6 @@ class _CryptoListState extends State<CryptoList> {
             currentRateInINRDash = currentRateInUSDDash * 72;
           });
         }
-
-        // setState(() {
-        //   var currentRateInUSDInString = data['data']['rateUsd'];
-        //   currentRateInUSD.add(double.parse(currentRateInUSDInString).toInt());
-        //   currentRateInINR.add(currentRateInUSD[index] * 72);
-        // });
       }
     } catch (exception) {
       print(exception);
