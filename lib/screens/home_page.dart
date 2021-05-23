@@ -14,13 +14,13 @@ class _HomePageState extends State<HomePage> {
   // List<dynamic> currentRateInINR = [];
   var currentRateInUSDBitcoin;
   var currentRateInUSDEthereum;
-  var currentRateInUSDDogecoin;
-  var currentRateInUSDLitecoin;
+  var currentRateInUSDDogeCoin;
+  var currentRateInUSDLiteCoin;
   var currentRateInUSDDash;
   var currentRateInINRBitcoin;
   var currentRateInINREthereum;
-  var currentRateInINRDogecoin;
-  var currentRateInINRLitecoin;
+  var currentRateInINRDogeCoin;
+  var currentRateInINRLiteCoin;
   var currentRateInINRDash;
 
   void getCurrentRate() async {
@@ -42,13 +42,13 @@ class _HomePageState extends State<HomePage> {
         } else if (index == 2) {
           setState(() {
             var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDDogecoin =
+            currentRateInUSDDogeCoin =
                 double.parse(currentRateInUSDInString).toInt();
           });
         } else if (index == 3) {
           setState(() {
             var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDLitecoin =
+            currentRateInUSDLiteCoin =
                 double.parse(currentRateInUSDInString).toInt();
           });
         } else {
