@@ -144,7 +144,7 @@ class LoginPage extends StatelessWidget {
                       Hero(
                         tag: 'logo',
                         child: Container(
-                          child: Image.asset('images/logo.png'),
+                          child: Image.asset('images/bitcoin.png'),
                           height: 60.0,
                         ),
                       ),
