@@ -11,7 +11,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(),
+      body: Stack(
+        children: <Widget>[],
+      ),
     );
   }
 }
