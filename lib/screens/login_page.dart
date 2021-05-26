@@ -164,7 +164,9 @@ class LoginPage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(),
+                  SizedBox(
+                    height: 48.0,
+                  ),
                 ],
               ),
             ),
