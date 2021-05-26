@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/home_page.dart';
 import 'package:flutter/material.dart';
 
 import 'crypto_list_page.dart';
@@ -107,7 +108,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     elevation: 5.0,
                     child: MaterialButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, CryptoList.id);
+                        Navigator.pushNamed(context, HomePage.id);
                         //Implement registration functionality.
                         // try {
                         //   final newUser =
