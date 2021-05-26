@@ -13,9 +13,12 @@ class FrontPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Expanded(
-              child: Container(
-                child: Image(
-                  image: AssetImage('images/bitcoin.png'),
+              child: Hero(
+                tag: 'logo',
+                child: Container(
+                  child: Image(
+                    image: AssetImage('images/bitcoin.png'),
+                  ),
                 ),
               ),
             ),
