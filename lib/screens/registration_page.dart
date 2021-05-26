@@ -1,4 +1,4 @@
-import 'package:demo_crypto_app/home_page.dart';
+import 'package:demo_crypto_app/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
