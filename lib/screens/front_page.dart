@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:demo_crypto_app/screens/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -28,25 +29,21 @@ class FrontPage extends StatelessWidget {
                 margin: EdgeInsets.only(left: 40.0, right: 40.0),
                 child: Column(
                   children: [
-                    // Text(
-                    //   'Plan for the future',
-                    //   textAlign: TextAlign.center,
-                    //   style: TextStyle(
-                    //       color: Color(0xFF262163),
-                    //       fontSize: 30.0,
-                    //       fontFamily: 'NotoSansJP',
-                    //       fontWeight: FontWeight.bold),
-                    // ),
-                    // Text(
-                    //   'from now on',
-                    //   textAlign: TextAlign.center,
-                    //   style: TextStyle(
-                    //     color: Color(0xFF262163),
-                    //     fontSize: 30.0,
-                    //     fontFamily: 'NotoSansJP',
-                    //     fontWeight: FontWeight.bold,
-                    //   ),
-                    // ),
+                    AnimatedTextKit(
+                      animatedTexts: [
+                        TypewriterAnimatedText(
+                          'Plan for the future from now on!',
+                          textAlign: TextAlign.center,
+                          textStyle: TextStyle(
+                            color: Color(0xFF262163),
+                            fontSize: 30.0,
+                            fontFamily: 'NotoSansJP',
+                            fontWeight: FontWeight.bold,
+                          ),
+                          speed: Duration(milliseconds: 150),
+                        ),
+                      ],
+                    ),
                     SizedBox(
                       height: 15.0,
                     ),
