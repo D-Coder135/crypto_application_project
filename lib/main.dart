@@ -8,6 +8,9 @@ class CryptoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: FrontPage(),
+      routes: {
+        FrontPage.id: (context) => FrontPage();
+      },
     );
   }
 }
