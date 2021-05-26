@@ -138,7 +138,32 @@ class LoginPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[],
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      Hero(
+                        tag: 'logo',
+                        child: Container(
+                          child: Image.asset('images/logo.png'),
+                          height: 60.0,
+                        ),
+                      ),
+                      AnimatedTextKit(
+                        animatedTexts: [
+                          TypewriterAnimatedText(
+                            'Flash Chat',
+                            textStyle: TextStyle(
+                              // color: Colors.black,
+                              fontSize: 45.0,
+                              fontWeight: FontWeight.w900,
+                            ),
+                            speed: Duration(milliseconds: 200),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
               ),
             ),
           ],
