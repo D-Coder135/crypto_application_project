@@ -1,8 +1,5 @@
-import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_signin_button/flutter_signin_button.dart';
-import '../home_page.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class LoginPage extends StatelessWidget {
