@@ -12,6 +12,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
+        child: Column(),
       ),
     );
   }
