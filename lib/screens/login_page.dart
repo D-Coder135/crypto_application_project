@@ -133,6 +133,9 @@ class LoginPage extends StatelessWidget {
             //     ),
             //   ],
             // ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 24.0),
+            ),
           ],
         ),
       ),
