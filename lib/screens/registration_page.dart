@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'crypto_list_page.dart';
+
 class RegistrationScreen extends StatefulWidget {
   static const String id = 'Registration_Screen';
 
@@ -105,6 +107,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     elevation: 5.0,
                     child: MaterialButton(
                       onPressed: () {
+                        Navigator.pushNamed(context, CryptoList.id);
                         //Implement registration functionality.
                         // try {
                         //   final newUser =
