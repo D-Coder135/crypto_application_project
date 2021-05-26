@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/screens/registration_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
@@ -194,7 +195,7 @@ class WelcomePage extends StatelessWidget {
                       child: MaterialButton(
                         onPressed: () {
                           //Go to registration screen.
-                          // Navigator.pushNamed(context, RegistrationScreen.id);
+                          Navigator.pushNamed(context, RegistrationScreen.id);
                         },
                         minWidth: 200.0,
                         height: 42.0,
