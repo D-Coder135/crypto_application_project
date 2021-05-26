@@ -64,11 +64,11 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               textAlign: TextAlign.center,
               onChanged: (value) {
                 //Do something with the user input.
-                password = value;
+                // password = value;
               },
               decoration: InputDecoration(
-                filled: true,
-                fillColor: Colors.grey[350],
+                // filled: true,
+                // fillColor: Colors.grey[350],
                 hintText: 'Enter your password',
                 hintStyle: TextStyle(
                   color: Colors.grey,
