@@ -64,7 +64,7 @@ class FrontPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) {
-                              return LoginPage();
+                              return WelcomePage();
                             },
                           ),
                         );

@@ -2,6 +2,8 @@ import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
+  static const String id = 'Home_Page';
+
   @override
   _HomePageState createState() => _HomePageState();
 }
