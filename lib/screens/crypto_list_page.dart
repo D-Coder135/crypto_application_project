@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class CryptoList extends StatefulWidget {
+  static const String id = 'Crypto_list_page';
+
   @override
   _CryptoListState createState() => _CryptoListState();
 }
