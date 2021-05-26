@@ -33,12 +33,7 @@ class _LoginPageState extends State<LoginPage> {
                 //Do something with the user input.
               },
               decoration: InputDecoration(
-                filled: true,
-                fillColor: Colors.grey[350],
                 hintText: 'Enter your email',
-                hintStyle: TextStyle(
-                  color: Colors.grey,
-                ),
                 contentPadding:
                     EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                 border: OutlineInputBorder(
