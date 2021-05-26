@@ -75,78 +75,89 @@ class _CryptoListState extends State<CryptoList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFD7E2F3),
-      body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Expanded(
-              child: ReusableCard(
-                Color(0xFFFCE5C9),
-                'images/Bitcoin.png',
-                'Bitcoin(BTC)',
-                2.0,
-                80.0,
-                '\$ $currentRateInUSDBitcoin',
-                Color(0xFFF29726),
-                '₹ $currentRateInINRBitcoin',
-                Color(0xFFF29726),
-              ),
-            ),
-            Expanded(
-              child: ReusableCard(
-                Colors.lightBlueAccent[100],
-                'images/Ethereum.png',
-                'Ethereum(ETH)',
-                2.0,
-                120.0,
-                '\$ $currentRateInUSDEthereum',
-                Colors.lightBlue[700],
-                '₹ $currentRateInINREthereum',
-                Colors.lightBlue[800],
-              ),
-            ),
-            Expanded(
-              child: ReusableCard(
-                Color(0xFFF4D96B),
-                'images/Dogecoin.png',
-                'Dogecoin(DOGE)',
-                2.0,
-                150.0,
-                '\$ $currentRateInUSDDogeCoin',
-                Colors.orange[700],
-                '₹ $currentRateInINRDogeCoin',
-                Colors.orange[800],
-              ),
-            ),
-            Expanded(
-              child: ReusableCard(
-                Colors.purple[200],
-                'images/Litecoin.png',
-                'Litecoin(LTC)',
-                1.0,
-                90.0,
-                '\$ $currentRateInUSDLiteCoin',
-                Colors.purple[700],
-                '₹ $currentRateInINRLiteCoin',
-                Colors.purple[800],
-              ),
-            ),
-            Expanded(
-              child: ReusableCard(
-                Color(0xFF416BA3),
-                'images/Dash.png',
-                'Dash(DAO)',
-                4.0,
-                90.0,
-                '\$ $currentRateInUSDDash',
-                Colors.indigo[800],
-                '₹ $currentRateInINRDash',
-                Colors.indigo[900],
-              ),
-            ),
-          ],
+      appBar: AppBar(
+        title: Text(
+          'Live Data',
+          style: TextStyle(
+            color: Colors.blueGrey,
+            fontFamily: 'Farro',
+            fontSize: 18.0,
+            fontWeight: FontWeight.bold,
+          ),
         ),
+        backgroundColor: Colors.cyan[100],
+        brightness: Brightness.dark,
+      ),
+      backgroundColor: Color(0xFFD7E2F3),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Expanded(
+            child: ReusableCard(
+              Color(0xFFFCE5C9),
+              'images/Bitcoin.png',
+              'Bitcoin(BTC)',
+              2.0,
+              80.0,
+              '\$ $currentRateInUSDBitcoin',
+              Color(0xFFF29726),
+              '₹ $currentRateInINRBitcoin',
+              Color(0xFFF29726),
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Colors.lightBlueAccent[100],
+              'images/Ethereum.png',
+              'Ethereum(ETH)',
+              2.0,
+              120.0,
+              '\$ $currentRateInUSDEthereum',
+              Colors.lightBlue[700],
+              '₹ $currentRateInINREthereum',
+              Colors.lightBlue[800],
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Color(0xFFF4D96B),
+              'images/Dogecoin.png',
+              'Dogecoin(DOGE)',
+              2.0,
+              150.0,
+              '\$ $currentRateInUSDDogeCoin',
+              Colors.orange[700],
+              '₹ $currentRateInINRDogeCoin',
+              Colors.orange[800],
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Colors.purple[200],
+              'images/Litecoin.png',
+              'Litecoin(LTC)',
+              1.0,
+              90.0,
+              '\$ $currentRateInUSDLiteCoin',
+              Colors.purple[700],
+              '₹ $currentRateInINRLiteCoin',
+              Colors.purple[800],
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Color(0xFF416BA3),
+              'images/Dash.png',
+              'Dash(DAO)',
+              4.0,
+              90.0,
+              '\$ $currentRateInUSDDash',
+              Colors.indigo[800],
+              '₹ $currentRateInINRDash',
+              Colors.indigo[900],
+            ),
+          ),
+        ],
       ),
     );
   }
