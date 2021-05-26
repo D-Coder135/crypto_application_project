@@ -24,6 +24,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 child: Image.asset('images/bitcoin.png'),
               ),
             ),
+            SizedBox(),
           ],
         ),
       ),
