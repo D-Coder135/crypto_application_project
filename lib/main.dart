@@ -10,6 +10,7 @@ class CryptoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      initialRoute: FrontPage.id,
       routes: {
         FrontPage.id: (context) => FrontPage(),
         WelcomePage.id: (context) => WelcomePage(),
