@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 class FrontPage extends StatelessWidget {
+  static const String id = 'Front_page';
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
