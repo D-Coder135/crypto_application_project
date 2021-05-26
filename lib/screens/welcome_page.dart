@@ -3,6 +3,8 @@ import 'package:flutter/rendering.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class WelcomePage extends StatelessWidget {
+  static const String id = 'Welcome_page';
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
