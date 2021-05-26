@@ -15,7 +15,18 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[],
+          children: <Widget>[
+            Hero(
+              tag: 'logo',
+              child: Container(
+                height: 200.0,
+                child: Image.asset('images/logo.png'),
+              ),
+            ),
+            SizedBox(
+              height: 48.0,
+            ),
+          ],
         ),
       ),
     );
