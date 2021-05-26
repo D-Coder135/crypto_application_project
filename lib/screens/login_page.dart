@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -91,6 +92,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: MaterialButton(
                   onPressed: () {
                     //Implement login functionality.
+                    Navigator.pushNamed(context, HomePage.id);
                   },
                   minWidth: 200.0,
                   height: 42.0,
