@@ -10,7 +10,9 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(),
+      body: Padding(
+        padding: EdgeInsets.symmetric(horizontal: 24.0),
+      ),
     );
   }
 }
