@@ -21,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
               tag: 'logo',
               child: Container(
                 height: 200.0,
-                child: Image.asset('images/logo.png'),
+                child: Image.asset('images/bitcoin.png'),
               ),
             ),
             SizedBox(
