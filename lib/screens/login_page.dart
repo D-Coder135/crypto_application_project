@@ -158,7 +158,7 @@ class LoginPage extends StatelessWidget {
                               fontSize: 45.0,
                               fontWeight: FontWeight.w900,
                             ),
-                            speed: Duration(milliseconds: 200),
+                            speed: Duration(milliseconds: 300),
                           ),
                         ],
                       ),
