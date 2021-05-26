@@ -28,24 +28,25 @@ class FrontPage extends StatelessWidget {
                 margin: EdgeInsets.only(left: 40.0, right: 40.0),
                 child: Column(
                   children: [
-                    Text(
-                      'Plan for the future',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          color: Color(0xFF262163),
-                          fontSize: 30.0,
-                          fontFamily: 'NotoSansJP',
-                          fontWeight: FontWeight.bold),
-                    ),
-                    Text(
-                      'from now on',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          color: Color(0xFF262163),
-                          fontSize: 30.0,
-                          fontFamily: 'NotoSansJP',
-                          fontWeight: FontWeight.bold),
-                    ),
+                    // Text(
+                    //   'Plan for the future',
+                    //   textAlign: TextAlign.center,
+                    //   style: TextStyle(
+                    //       color: Color(0xFF262163),
+                    //       fontSize: 30.0,
+                    //       fontFamily: 'NotoSansJP',
+                    //       fontWeight: FontWeight.bold),
+                    // ),
+                    // Text(
+                    //   'from now on',
+                    //   textAlign: TextAlign.center,
+                    //   style: TextStyle(
+                    //     color: Color(0xFF262163),
+                    //     fontSize: 30.0,
+                    //     fontFamily: 'NotoSansJP',
+                    //     fontWeight: FontWeight.bold,
+                    //   ),
+                    // ),
                     SizedBox(
                       height: 15.0,
                     ),
