@@ -13,14 +13,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('images/background.png'),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: Column(
@@ -49,8 +41,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     // fillColor: Colors.grey[350],
                     hintText: 'Enter your email',
                     hintStyle: TextStyle(
-                      color: Colors.grey,
-                    ),
+                        // color: Colors.grey,
+                        ),
                     contentPadding:
                         EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                     border: OutlineInputBorder(
@@ -83,8 +75,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     // fillColor: Colors.grey[350],
                     hintText: 'Enter your password',
                     hintStyle: TextStyle(
-                      color: Colors.grey,
-                    ),
+                        // color: Colors.grey,
+                        ),
                     contentPadding:
                         EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                     border: OutlineInputBorder(
