@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:flutter/material.dart';
 
@@ -33,11 +35,7 @@ class _HomePageState extends State<HomePage> {
         ),
         backgroundColor: Colors.blueGrey[500],
         onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) {
-                return CryptoList();
+          Navigator.pushNamed(context, CryptoList.id);
               },
             ),
           );
