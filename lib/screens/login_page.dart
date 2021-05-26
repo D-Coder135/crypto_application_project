@@ -176,7 +176,7 @@ class LoginPage extends StatelessWidget {
                       child: MaterialButton(
                         onPressed: () {
                           //Go to login screen.
-                          Navigator.pushNamed(context, LoginScreen.id);
+                          // Navigator.pushNamed(context, LoginScreen.id);
                         },
                         minWidth: 200.0,
                         height: 42.0,
@@ -195,7 +195,7 @@ class LoginPage extends StatelessWidget {
                       child: MaterialButton(
                         onPressed: () {
                           //Go to registration screen.
-                          Navigator.pushNamed(context, RegistrationScreen.id);
+                          // Navigator.pushNamed(context, RegistrationScreen.id);
                         },
                         minWidth: 200.0,
                         height: 42.0,
