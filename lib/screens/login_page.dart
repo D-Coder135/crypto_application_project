@@ -152,7 +152,7 @@ class LoginPage extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TypewriterAnimatedText(
-                            'Flash Chat',
+                            'Welcome!',
                             textStyle: TextStyle(
                               // color: Colors.black,
                               fontSize: 45.0,
