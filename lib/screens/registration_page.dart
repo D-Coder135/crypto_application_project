@@ -1,8 +1,6 @@
 import 'package:demo_crypto_app/home_page.dart';
 import 'package:flutter/material.dart';
 
-import 'crypto_list_page.dart';
-
 class RegistrationScreen extends StatefulWidget {
   static const String id = 'Registration_Screen';
 
