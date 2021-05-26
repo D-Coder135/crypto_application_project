@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/screens/login_page.dart';
 import 'package:demo_crypto_app/screens/registration_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -176,7 +177,7 @@ class WelcomePage extends StatelessWidget {
                       child: MaterialButton(
                         onPressed: () {
                           //Go to login screen.
-                          // Navigator.pushNamed(context, LoginScreen.id);
+                          Navigator.pushNamed(context, LoginPage.id);
                         },
                         minWidth: 200.0,
                         height: 42.0,
