@@ -104,7 +104,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(30.0)),
                     elevation: 5.0,
                     child: MaterialButton(
-                      onPressed: () async {
+                      onPressed: () {
                         //Implement registration functionality.
                         // try {
                         //   final newUser =
