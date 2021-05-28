@@ -19,7 +19,9 @@ class _WelcomePageState extends State<WelcomePage>
   @override
   void initState() {
     super.initState();
-    controller = AnimationController();
+    controller = AnimationController(
+      duration: Duration(seconds: 2),
+    );
   }
 
   @override
