@@ -11,7 +11,8 @@ class WelcomePage extends StatefulWidget {
   _WelcomePageState createState() => _WelcomePageState();
 }
 
-class _WelcomePageState extends State<WelcomePage> {
+class _WelcomePageState extends State<WelcomePage>
+    with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
