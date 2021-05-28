@@ -147,7 +147,7 @@ class WelcomePage extends StatelessWidget {
                         tag: 'logo',
                         child: Container(
                           child: Image.asset('images/bitcoin.png'),
-                          height: 70.0,
+                          height: 75.0,
                         ),
                       ),
                       AnimatedTextKit(
