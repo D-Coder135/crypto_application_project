@@ -23,6 +23,8 @@ class _WelcomePageState extends State<WelcomePage>
       duration: Duration(seconds: 2),
       vsync: this,
     )..repeat(reverse: true);
+
+    animation = Tween<Offset>();
   }
 
   @override
