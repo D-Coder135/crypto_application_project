@@ -20,7 +20,7 @@ class _WelcomePageState extends State<WelcomePage>
   void initState() {
     super.initState();
     controller = AnimationController(
-      duration: Duration(seconds: 2),
+      duration: Duration(seconds: 3),
       vsync: this,
     );
 
@@ -106,19 +106,21 @@ class _WelcomePageState extends State<WelcomePage>
                   ),
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 16.0),
-                    child: Material(
-                      color: Colors.blueAccent,
-                      borderRadius: BorderRadius.circular(30.0),
-                      elevation: 5.0,
-                      child: MaterialButton(
-                        onPressed: () {
-                          //Go to registration screen.
-                          Navigator.pushNamed(context, RegistrationScreen.id);
-                        },
-                        minWidth: 200.0,
-                        height: 42.0,
-                        child: Text(
-                          'Register',
+                    child: ScaleTransition(
+                      child: Material(
+                        color: Colors.blueAccent,
+                        borderRadius: BorderRadius.circular(30.0),
+                        elevation: 5.0,
+                        child: MaterialButton(
+                          onPressed: () {
+                            //Go to registration screen.
+                            Navigator.pushNamed(context, RegistrationScreen.id);
+                          },
+                          minWidth: 200.0,
+                          height: 42.0,
+                          child: Text(
+                            'Register',
+                          ),
                         ),
                       ),
                     ),
