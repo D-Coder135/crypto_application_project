@@ -159,7 +159,7 @@ class WelcomePage extends StatelessWidget {
                               fontSize: 45.0,
                               fontWeight: FontWeight.w900,
                             ),
-                            speed: Duration(milliseconds: 300),
+                            speed: Duration(milliseconds: 150),
                           ),
                         ],
                       ),
