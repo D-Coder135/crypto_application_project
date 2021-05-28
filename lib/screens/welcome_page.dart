@@ -24,7 +24,9 @@ class _WelcomePageState extends State<WelcomePage>
       vsync: this,
     )..repeat(reverse: true);
 
-    animation = Tween<Offset>();
+    animation = Tween<Offset>(
+      begin: Offset.zero,
+    );
   }
 
   @override
