@@ -88,6 +88,7 @@ class _WelcomePageState extends State<WelcomePage>
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 16.0),
                     child: SlideTransition(
+                      position: animation,
                       child: Material(
                         elevation: 5.0,
                         color: Colors.lightBlueAccent,
