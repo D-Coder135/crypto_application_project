@@ -166,7 +166,7 @@ class WelcomePage extends StatelessWidget {
                     ],
                   ),
                   SizedBox(
-                    height: 48.0,
+                    height: 40.0,
                   ),
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 16.0),
