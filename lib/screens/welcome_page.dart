@@ -35,6 +35,7 @@ class _WelcomePageState extends State<WelcomePage>
   @override
   void dispose() {
     super.dispose();
+    controller.dispose();
   }
 
   @override
