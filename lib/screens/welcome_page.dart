@@ -27,6 +27,8 @@ class _WelcomePageState extends State<WelcomePage>
     animation = Tween<Offset>(
       begin: Offset.zero,
       end: Offset(2.0, 0.0),
+    ).animate(
+      CurvedAnimation(parent: controller, curve: Curves.elasticIn),
     );
   }
 
