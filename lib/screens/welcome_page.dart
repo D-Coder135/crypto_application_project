@@ -22,7 +22,7 @@ class _WelcomePageState extends State<WelcomePage>
     controller = AnimationController(
       duration: Duration(seconds: 2),
       vsync: this,
-    );
+    )..repeat(reverse: true);
   }
 
   @override
