@@ -5,8 +5,6 @@ import 'package:flutter/rendering.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class WelcomePage extends StatefulWidget {
-  const WelcomePage({Key key}) : super(key: key);
-
   @override
   _WelcomePageState createState() => _WelcomePageState();
 }
