@@ -17,6 +17,11 @@ class _WelcomePageState extends State<WelcomePage>
   Animation animation;
 
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
