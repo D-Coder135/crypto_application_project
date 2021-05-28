@@ -14,7 +14,7 @@ class WelcomePage extends StatefulWidget {
 class _WelcomePageState extends State<WelcomePage>
     with SingleTickerProviderStateMixin {
   AnimationController controller;
-  Animation animation;
+  Animation<Offset> animation;
 
   @override
   void initState() {
