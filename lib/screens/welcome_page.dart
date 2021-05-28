@@ -24,7 +24,8 @@ class _WelcomePageState extends State<WelcomePage>
       vsync: this,
     );
 
-    animation = CurvedAnimation(parent: controller, curve: Curves.elasticInOut);
+    animation =
+        CurvedAnimation(parent: controller, curve: Curves.fastOutSlowIn);
 
     controller.forward();
   }
