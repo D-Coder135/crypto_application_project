@@ -13,6 +13,8 @@ class WelcomePage extends StatefulWidget {
 
 class _WelcomePageState extends State<WelcomePage>
     with SingleTickerProviderStateMixin {
+  AnimationController controller;
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
