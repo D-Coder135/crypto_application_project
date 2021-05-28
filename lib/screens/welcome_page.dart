@@ -14,7 +14,7 @@ class WelcomePage extends StatefulWidget {
 class _WelcomePageState extends State<WelcomePage>
     with SingleTickerProviderStateMixin {
   AnimationController controller;
-  Animation<Offset> animation;
+  Animation animation;
 
   @override
   void initState() {
@@ -22,14 +22,11 @@ class _WelcomePageState extends State<WelcomePage>
     controller = AnimationController(
       duration: Duration(seconds: 2),
       vsync: this,
-    )..repeat(reverse: true);
-
-    animation = Tween<Offset>(
-      begin: Offset.zero,
-      end: Offset(2.0, 0.0),
-    ).animate(
-      CurvedAnimation(parent: controller, curve: Curves.elasticIn),
     );
+
+    animation = CurvedAnimation(parent: controller, curve: Curves.elasticInOut);
+
+    controller.forward();
   }
 
   @override
