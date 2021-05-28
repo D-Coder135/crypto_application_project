@@ -21,6 +21,7 @@ class _WelcomePageState extends State<WelcomePage>
     super.initState();
     controller = AnimationController(
       duration: Duration(seconds: 2),
+      vsync: this,
     );
   }
 
