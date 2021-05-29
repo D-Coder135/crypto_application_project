@@ -12,6 +12,7 @@ const List<String> cryptoCurrenciesList = [
   'tether',
   'binance-coin',
   'eos',
+  'multi-collateral-dai',
   'waves',
   'husd',
   'zcash',
