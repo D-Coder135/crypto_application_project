@@ -10,6 +10,7 @@ const List<String> cryptoCurrenciesList = [
   'dash',
   'bitcoin-cash',
   'tether',
+  'binance-coin',
   'eos',
   'waves',
   'husd',
