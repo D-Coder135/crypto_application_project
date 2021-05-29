@@ -107,6 +107,7 @@ class _WelcomePageState extends State<WelcomePage>
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 16.0),
                     child: ScaleTransition(
+                      scale: animation,
                       child: Material(
                         color: Colors.blueAccent,
                         borderRadius: BorderRadius.circular(30.0),
