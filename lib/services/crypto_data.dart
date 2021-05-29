@@ -8,6 +8,7 @@ const List<String> cryptoCurrenciesList = [
   'dogecoin',
   'litecoin',
   'dash',
+  'usd-coin',
   'bitcoin-cash',
   'tether',
   'binance-coin',
