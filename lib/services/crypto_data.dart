@@ -9,6 +9,7 @@ const List<String> cryptoCurrenciesList = [
   'litecoin',
   'dash',
   'bitcoin-cash',
+  'tether',
 ];
 
 class CryptoData {
