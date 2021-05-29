@@ -14,6 +14,7 @@ const List<String> cryptoCurrenciesList = [
   'eos',
   'waves',
   'husd',
+  'zcash',
 ];
 
 class CryptoData {
