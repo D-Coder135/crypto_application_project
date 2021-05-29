@@ -8,6 +8,7 @@ const List<String> cryptoCurrenciesList = [
   'dogecoin',
   'litecoin',
   'dash',
+  'bitcoin-cash',
 ];
 
 class CryptoData {
