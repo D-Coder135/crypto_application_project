@@ -12,6 +12,7 @@ const List<String> cryptoCurrenciesList = [
   'tether',
   'eos',
   'waves',
+  'husd',
 ];
 
 class CryptoData {
