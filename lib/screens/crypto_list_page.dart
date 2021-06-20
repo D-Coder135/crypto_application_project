@@ -81,7 +81,7 @@ class _CryptoListState extends State<CryptoList> {
         title: Text(
           'Live Data',
           style: TextStyle(
-            color: Colors.blueGrey,
+            color: Colors.blueGrey[600],
             fontFamily: 'Farro',
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
