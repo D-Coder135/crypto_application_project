@@ -87,7 +87,7 @@ class _CryptoListState extends State<CryptoList> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.cyan[100],
+        backgroundColor: Colors.grey[350],
         brightness: Brightness.dark,
       ),
       // backgroundColor: Color(0xFFD7E2F3),
