@@ -21,10 +21,6 @@ const List<String> cryptoCurrenciesList = [
 ];
 
 class CryptoData {
-  get cryptoList {
-    return cryptoCurrenciesList;
-  }
-
   Future<dynamic> getCryptoData(int index) async {
     NetworkHelper networkHelper =
         NetworkHelper('$coinCapURL/${cryptoCurrenciesList[index]}');
