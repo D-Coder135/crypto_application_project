@@ -89,7 +89,6 @@ class _CryptoListState extends State<CryptoList> {
         ),
         backgroundColor: Colors.grey[350],
       ),
-      // backgroundColor: Color(0xFFD7E2F3),
       body: ListView(
         // crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
