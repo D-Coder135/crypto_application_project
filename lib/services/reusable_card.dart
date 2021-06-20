@@ -25,7 +25,7 @@ class ReusableCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(20.0),
+      margin: EdgeInsets.all(10.0),
       decoration: BoxDecoration(
         color: colour,
         borderRadius: BorderRadius.circular(10.0),
@@ -35,7 +35,7 @@ class ReusableCard extends StatelessWidget {
         children: <Widget>[
           CircleAvatar(
             backgroundImage: AssetImage(imageFileName),
-            radius: 40.0,
+            radius: 35.0,
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,

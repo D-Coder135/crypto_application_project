@@ -13,12 +13,12 @@ class CryptoList extends StatefulWidget {
 class _CryptoListState extends State<CryptoList> {
   var currentRateInUSDBitcoin;
   var currentRateInUSDEthereum;
-  var currentRateInUSDDogeCoin;
+  var currentRateInUSDUSDC;
   var currentRateInUSDLiteCoin;
   var currentRateInUSDDash;
   var currentRateInINRBitcoin;
   var currentRateInINREthereum;
-  var currentRateInINRDogeCoin;
+  var currentRateInINRUSDC;
   var currentRateInINRLiteCoin;
   var currentRateInINRDash;
 
@@ -43,9 +43,9 @@ class _CryptoListState extends State<CryptoList> {
         } else if (index == 2) {
           setState(() {
             var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDDogeCoin =
+            currentRateInUSDUSDC =
                 double.parse(currentRateInUSDInString).toInt();
-            currentRateInINRDogeCoin = currentRateInUSDDogeCoin * 72;
+            currentRateInINRUSDC = currentRateInUSDUSDC * 72;
           });
         } else if (index == 3) {
           setState(() {
@@ -90,9 +90,9 @@ class _CryptoListState extends State<CryptoList> {
         backgroundColor: Colors.cyan[100],
         brightness: Brightness.dark,
       ),
-      backgroundColor: Color(0xFFD7E2F3),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      // backgroundColor: Color(0xFFD7E2F3),
+      body: ListView(
+        // crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Expanded(
             child: ReusableCard(
@@ -123,13 +123,13 @@ class _CryptoListState extends State<CryptoList> {
           Expanded(
             child: ReusableCard(
               Color(0xFFF4D96B),
-              'images/Dogecoin.png',
-              'Dogecoin(DOGE)',
-              2.0,
-              150.0,
-              '\$ $currentRateInUSDDogeCoin',
+              'images/usdcoin.jpg',
+              'USDCoin(USDC)',
+              3.0,
+              160.0,
+              '\$ $currentRateInUSDUSDC',
               Colors.orange[700],
-              '₹ $currentRateInINRDogeCoin',
+              '₹ $currentRateInINRUSDC',
               Colors.orange[800],
             ),
           ),
