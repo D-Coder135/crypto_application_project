@@ -157,18 +157,16 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: Expanded(
-              child: ReusableCard(
-                Colors.purple[200],
-                'images/Litecoin.png',
-                'Litecoin(LTC)',
-                1.0,
-                90.0,
-                '\$ $currentRateInUSDLiteCoin',
-                Colors.purple[700],
-                '₹ $currentRateInINRLiteCoin',
-                Colors.purple[800],
-              ),
+            child: ReusableCard(
+              Colors.purple[200],
+              'images/Litecoin.png',
+              'Litecoin(LTC)',
+              1.0,
+              90.0,
+              '\$ $currentRateInUSDLiteCoin',
+              Colors.purple[700],
+              '₹ $currentRateInINRLiteCoin',
+              Colors.purple[800],
             ),
           ),
           ScaleTransition(
