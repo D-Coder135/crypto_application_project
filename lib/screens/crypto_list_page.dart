@@ -11,6 +11,8 @@ class CryptoList extends StatefulWidget {
 }
 
 class _CryptoListState extends State<CryptoList> {
+  AnimationController controller;
+
   var currentRateInUSDBitcoin;
   var currentRateInUSDEthereum;
   var currentRateInUSDUSDC;
