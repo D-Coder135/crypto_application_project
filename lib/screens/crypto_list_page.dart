@@ -115,18 +115,16 @@ class _CryptoListState extends State<CryptoList>
         children: <Widget>[
           ScaleTransition(
             scale: animation,
-            child: Expanded(
-              child: ReusableCard(
-                Color(0xFFFCE5C9),
-                'images/Bitcoin.png',
-                'Bitcoin(BTC)',
-                2.0,
-                80.0,
-                '\$ $currentRateInUSDBitcoin',
-                Color(0xFFF29726),
-                '₹ $currentRateInINRBitcoin',
-                Color(0xFFF29726),
-              ),
+            child: ReusableCard(
+              Color(0xFFFCE5C9),
+              'images/Bitcoin.png',
+              'Bitcoin(BTC)',
+              2.0,
+              80.0,
+              '\$ $currentRateInUSDBitcoin',
+              Color(0xFFF29726),
+              '₹ $currentRateInINRBitcoin',
+              Color(0xFFF29726),
             ),
           ),
           ScaleTransition(
