@@ -213,7 +213,17 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Color(0xAA063856),
+              'images/binanceCoin.png',
+              'Binance-Coin(BNB)',
+              1.0,
+              150.0,
+              '\$',
+              Colors.blueGrey[800],
+              '₹',
+              Colors.blueGrey[900],
+            ),
           )
         ],
       ),
