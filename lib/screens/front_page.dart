@@ -13,6 +13,7 @@ class FrontPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Padding(
+            padding: EdgeInsets.all(25.0),
             child: Expanded(
               child: Hero(
                 tag: 'logo',
