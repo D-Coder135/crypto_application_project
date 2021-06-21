@@ -10,7 +10,8 @@ class CryptoList extends StatefulWidget {
   _CryptoListState createState() => _CryptoListState();
 }
 
-class _CryptoListState extends State<CryptoList> {
+class _CryptoListState extends State<CryptoList>
+    with SingleTickerProviderStateMixin {
   AnimationController controller;
   Animation animation;
 
