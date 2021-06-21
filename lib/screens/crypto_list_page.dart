@@ -92,6 +92,7 @@ class _CryptoListState extends State<CryptoList>
   @override
   void dispose() {
     super.dispose();
+    controller.dispose();
   }
 
   @override
