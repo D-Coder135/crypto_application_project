@@ -255,7 +255,17 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Color(0xAA00007C),
+              'images/Waves.png',
+              'Waves(WAVES)',
+              3.0,
+              120.0,
+              '\$',
+              Colors.indigo[800],
+              '₹',
+              Colors.blue[900],
+            ),
           )
         ],
       ),
