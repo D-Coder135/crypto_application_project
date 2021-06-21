@@ -81,6 +81,11 @@ class _CryptoListState extends State<CryptoList>
       duration: Duration(seconds: 3),
       vsync: this,
     );
+
+    animation = CurvedAnimation(
+      parent: controller,
+      curve: Curves.elasticIn,
+    );
   }
 
   @override
