@@ -44,7 +44,7 @@ class ReusableCard extends StatelessWidget {
                 Text(
                   text,
                   style: TextStyle(
-                    fontSize: 21.0,
+                    fontSize: 19.0,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Farro',
                     letterSpacing: letterSpacingValue,
