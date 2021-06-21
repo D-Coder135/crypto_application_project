@@ -112,6 +112,14 @@ class _CryptoListState extends State<CryptoList>
       ),
       body: Stack(
         children: <Widget>[
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('images/background.png'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
           ListView(
             // crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
