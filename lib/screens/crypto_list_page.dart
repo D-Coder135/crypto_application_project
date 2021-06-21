@@ -185,7 +185,17 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Color(0xAA0ABB8A),
+              'images/bitcoincash.png',
+              'Bitcoin-Cash(BCH)',
+              1.0,
+              120.0,
+              '\$',
+              Colors.green[700],
+              '₹',
+              Colors.green[800],
+            ),
           ),
         ],
       ),
