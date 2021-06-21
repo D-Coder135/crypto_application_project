@@ -102,13 +102,13 @@ class _CryptoListState extends State<CryptoList>
         title: Text(
           'Live Data',
           style: TextStyle(
-            color: Colors.blueGrey[600],
+            color: Colors.black54,
             fontFamily: 'Farro',
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.grey[350],
+        backgroundColor: Colors.blue[400],
       ),
       body: ListView(
         // crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -298,7 +298,7 @@ class _CryptoListState extends State<CryptoList>
           ScaleTransition(
             scale: animation,
             child: ReusableCard(
-              Colors.yellow,
+              Colors.yellow[600],
               'images/zcash.png',
               'ZCash(ZEC)',
               3.0,
