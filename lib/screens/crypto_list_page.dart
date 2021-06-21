@@ -100,7 +100,7 @@ class _CryptoListState extends State<CryptoList>
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Live Data',
+          'Live Data!',
           style: TextStyle(
             color: Colors.black54,
             fontFamily: 'Farro',
