@@ -280,6 +280,9 @@ class _CryptoListState extends State<CryptoList>
               '₹',
               Colors.indigo[900],
             ),
+          ),
+          ScaleTransition(
+            scale: animation,
           )
         ],
       ),
