@@ -253,6 +253,9 @@ class _CryptoListState extends State<CryptoList>
               Colors.orange[900],
             ),
           ),
+          ScaleTransition(
+            scale: animation,
+          )
         ],
       ),
     );
