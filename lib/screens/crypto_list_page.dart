@@ -227,7 +227,17 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Color(0xFF424242),
+              'images/eos.png',
+              'EOS(EOSIO)',
+              4.0,
+              120,
+              '\$',
+              Colors.black54,
+              '₹',
+              Colors.black87,
+            ),
           )
         ],
       ),
