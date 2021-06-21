@@ -84,9 +84,9 @@ class _CryptoListState extends State<CryptoList>
 
     animation = CurvedAnimation(
       parent: controller,
-      curve: Curves.elasticIn,
+      curve: Curves.fastOutSlowIn,
     );
-    controller.reverse();
+    controller.forward();
   }
 
   @override
@@ -110,8 +110,8 @@ class _CryptoListState extends State<CryptoList>
         ),
         backgroundColor: Colors.grey[350],
       ),
-      body: SlideTransition(
-        position: animation,
+      body: ScaleTransition(
+        scale: animation,
         child: ListView(
           // crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
