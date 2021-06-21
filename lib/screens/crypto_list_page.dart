@@ -284,16 +284,17 @@ class _CryptoListState extends State<CryptoList>
           ScaleTransition(
             scale: animation,
             child: ReusableCard(
-                colour,
-                imageFileName,
-                text,
-                letterSpacingValue,
-                marginValue,
-                textForUSDRate,
-                colorForTextUSD,
-                textForINRRate,
-                colorForTextINR),
-          )
+              Colors.blue,
+              'images/husd.png',
+              'HUSD',
+              4.0,
+              120.0,
+              '\$',
+              Colors.cyan[800],
+              '₹',
+              Colors.cyan[900],
+            ),
+          ),
         ],
       ),
     );
