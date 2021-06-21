@@ -110,12 +110,12 @@ class _CryptoListState extends State<CryptoList>
         ),
         backgroundColor: Colors.grey[350],
       ),
-      body: ScaleTransition(
-        scale: animation,
-        child: ListView(
-          // crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Expanded(
+      body: ListView(
+        // crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          ScaleTransition(
+            scale: animation,
+            child: Expanded(
               child: ReusableCard(
                 Color(0xFFFCE5C9),
                 'images/Bitcoin.png',
@@ -128,60 +128,60 @@ class _CryptoListState extends State<CryptoList>
                 Color(0xFFF29726),
               ),
             ),
-            Expanded(
-              child: ReusableCard(
-                Colors.lightBlueAccent[100],
-                'images/Ethereum.png',
-                'Ethereum(ETH)',
-                0.5,
-                100.0,
-                '\$ $currentRateInUSDEthereum',
-                Colors.lightBlue[700],
-                '₹ $currentRateInINREthereum',
-                Colors.lightBlue[800],
-              ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Colors.lightBlueAccent[100],
+              'images/Ethereum.png',
+              'Ethereum(ETH)',
+              0.5,
+              100.0,
+              '\$ $currentRateInUSDEthereum',
+              Colors.lightBlue[700],
+              '₹ $currentRateInINREthereum',
+              Colors.lightBlue[800],
             ),
-            Expanded(
-              child: ReusableCard(
-                Color(0xFFF4D96B),
-                'images/usdcoin.jpg',
-                'USDCoin(USDC)',
-                2.5,
-                150.0,
-                '\$ $currentRateInUSDUSDC',
-                Colors.orange[700],
-                '₹ $currentRateInINRUSDC',
-                Colors.orange[800],
-              ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Color(0xFFF4D96B),
+              'images/usdcoin.jpg',
+              'USDCoin(USDC)',
+              2.5,
+              150.0,
+              '\$ $currentRateInUSDUSDC',
+              Colors.orange[700],
+              '₹ $currentRateInINRUSDC',
+              Colors.orange[800],
             ),
-            Expanded(
-              child: ReusableCard(
-                Colors.purple[200],
-                'images/Litecoin.png',
-                'Litecoin(LTC)',
-                1.0,
-                90.0,
-                '\$ $currentRateInUSDLiteCoin',
-                Colors.purple[700],
-                '₹ $currentRateInINRLiteCoin',
-                Colors.purple[800],
-              ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Colors.purple[200],
+              'images/Litecoin.png',
+              'Litecoin(LTC)',
+              1.0,
+              90.0,
+              '\$ $currentRateInUSDLiteCoin',
+              Colors.purple[700],
+              '₹ $currentRateInINRLiteCoin',
+              Colors.purple[800],
             ),
-            Expanded(
-              child: ReusableCard(
-                Color(0xFF416BA3),
-                'images/Dash.png',
-                'Dash(DAO)',
-                4.0,
-                90.0,
-                '\$ $currentRateInUSDDash',
-                Colors.indigo[800],
-                '₹ $currentRateInINRDash',
-                Colors.indigo[900],
-              ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              Color(0xFF416BA3),
+              'images/Dash.png',
+              'Dash(DAO)',
+              4.0,
+              90.0,
+              '\$ $currentRateInUSDDash',
+              Colors.indigo[800],
+              '₹ $currentRateInINRDash',
+              Colors.indigo[900],
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
