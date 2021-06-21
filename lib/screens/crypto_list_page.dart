@@ -190,13 +190,16 @@ class _CryptoListState extends State<CryptoList>
               'images/bitcoincash.png',
               'Bitcoin-Cash(BCH)',
               1.0,
-              120.0,
+              150.0,
               '\$',
               Colors.green[600],
               '₹',
               Colors.green[700],
             ),
           ),
+          ScaleTransition(
+            scale: animation,
+          )
         ],
       ),
     );
