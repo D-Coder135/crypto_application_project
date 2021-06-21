@@ -224,6 +224,9 @@ class _CryptoListState extends State<CryptoList>
               '₹',
               Colors.blueGrey[900],
             ),
+          ),
+          ScaleTransition(
+            scale: animation,
           )
         ],
       ),
