@@ -241,7 +241,17 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Color(0xFFF7A005),
+              'images/multi-collateral-dai.png',
+              'MultiCollateral-Dai(MCD)',
+              0.0,
+              120.0,
+              '\$',
+              Colors.orange[900],
+              '₹',
+              Colors.orange[900],
+            ),
           ),
         ],
       ),
