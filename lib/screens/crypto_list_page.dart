@@ -269,7 +269,17 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Colors.blue[800],
+              'images/Qtum.png',
+              'Quantum(QTUM)',
+              2.0,
+              120.0,
+              '\$',
+              Colors.indigo[900],
+              '₹',
+              Colors.indigo[900],
+            ),
           )
         ],
       ),
