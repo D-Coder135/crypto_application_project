@@ -171,18 +171,16 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: Expanded(
-              child: ReusableCard(
-                Color(0xFF416BA3),
-                'images/Dash.png',
-                'Dash(DAO)',
-                4.0,
-                90.0,
-                '\$ $currentRateInUSDDash',
-                Colors.indigo[800],
-                '₹ $currentRateInINRDash',
-                Colors.indigo[900],
-              ),
+            child: ReusableCard(
+              Color(0xFF416BA3),
+              'images/Dash.png',
+              'Dash(DAO)',
+              4.0,
+              90.0,
+              '\$ $currentRateInUSDDash',
+              Colors.indigo[800],
+              '₹ $currentRateInINRDash',
+              Colors.indigo[900],
             ),
           ),
         ],
