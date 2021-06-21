@@ -143,18 +143,16 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: Expanded(
-              child: ReusableCard(
-                Color(0xFFF4D96B),
-                'images/usdcoin.jpg',
-                'USDCoin(USDC)',
-                2.5,
-                150.0,
-                '\$ $currentRateInUSDUSDC',
-                Colors.orange[700],
-                '₹ $currentRateInINRUSDC',
-                Colors.orange[800],
-              ),
+            child: ReusableCard(
+              Color(0xFFF4D96B),
+              'images/usdcoin.jpg',
+              'USDCoin(USDC)',
+              2.5,
+              150.0,
+              '\$ $currentRateInUSDUSDC',
+              Colors.orange[700],
+              '₹ $currentRateInINRUSDC',
+              Colors.orange[800],
             ),
           ),
           ScaleTransition(
