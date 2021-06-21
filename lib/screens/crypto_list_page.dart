@@ -86,6 +86,7 @@ class _CryptoListState extends State<CryptoList>
       parent: controller,
       curve: Curves.elasticIn,
     );
+    controller.reverse();
   }
 
   @override
