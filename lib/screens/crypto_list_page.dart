@@ -199,7 +199,20 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: ReusableCard(),
+            child: ReusableCard(
+              Color(0xAAF75C1E),
+              'images/tether.png',
+              'Tether(USDT)',
+              2.0,
+              120.0,
+              '\$',
+              Colors.deepOrangeAccent[400],
+              '₹',
+              Colors.deepOrangeAccent[700],
+            ),
+          ),
+          ScaleTransition(
+            scale: animation,
           )
         ],
       ),
