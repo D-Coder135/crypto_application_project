@@ -283,6 +283,16 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
+            child: ReusableCard(
+                colour,
+                imageFileName,
+                text,
+                letterSpacingValue,
+                marginValue,
+                textForUSDRate,
+                colorForTextUSD,
+                textForINRRate,
+                colorForTextINR),
           )
         ],
       ),
