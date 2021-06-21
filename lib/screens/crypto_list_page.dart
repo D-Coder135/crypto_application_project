@@ -111,6 +111,7 @@ class _CryptoListState extends State<CryptoList>
         backgroundColor: Colors.grey[350],
       ),
       body: SlideTransition(
+        position: animation,
         child: ListView(
           // crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
