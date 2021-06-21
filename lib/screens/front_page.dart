@@ -45,6 +45,7 @@ class FrontPage extends StatelessWidget {
                         speed: Duration(milliseconds: 150),
                       ),
                     ],
+                    isRepeatingAnimation: false,
                   ),
                   SizedBox(
                     height: 15.0,
