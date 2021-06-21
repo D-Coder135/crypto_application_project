@@ -185,6 +185,7 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
+            child: ReusableCard(),
           ),
         ],
       ),
