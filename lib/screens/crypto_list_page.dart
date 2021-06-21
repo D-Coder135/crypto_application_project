@@ -129,18 +129,16 @@ class _CryptoListState extends State<CryptoList>
           ),
           ScaleTransition(
             scale: animation,
-            child: Expanded(
-              child: ReusableCard(
-                Colors.lightBlueAccent[100],
-                'images/Ethereum.png',
-                'Ethereum(ETH)',
-                0.5,
-                100.0,
-                '\$ $currentRateInUSDEthereum',
-                Colors.lightBlue[700],
-                '₹ $currentRateInINREthereum',
-                Colors.lightBlue[800],
-              ),
+            child: ReusableCard(
+              Colors.lightBlueAccent[100],
+              'images/Ethereum.png',
+              'Ethereum(ETH)',
+              0.5,
+              100.0,
+              '\$ $currentRateInUSDEthereum',
+              Colors.lightBlue[700],
+              '₹ $currentRateInINREthereum',
+              Colors.lightBlue[800],
             ),
           ),
           ScaleTransition(
