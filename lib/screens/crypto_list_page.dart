@@ -183,7 +183,7 @@ class _CryptoListState extends State<CryptoList>
                         Colors.purple[200],
                         'images/Litecoin.png',
                         'Litecoin(LTC)',
-                        1.0,
+                        2.0,
                         90.0,
                         '\$ ${rateList[3]}',
                         Colors.purple[700],
