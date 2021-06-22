@@ -81,7 +81,7 @@ class ReusableCard extends StatelessWidget {
             ),
             Checkbox(
               value: isChecked,
-              onChanged: null,
+              onChanged: toggleCheckboxState,
               fillColor:
                   MaterialStateProperty.resolveWith((states) => Colors.blue),
             ),
