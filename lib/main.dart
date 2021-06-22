@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'screens/front_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(CryptoApp());
 }
 
