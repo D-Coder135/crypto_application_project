@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class ReusableCard extends StatelessWidget {
   final Color colour;
   final String imageFileName;
