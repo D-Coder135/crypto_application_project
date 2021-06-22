@@ -74,7 +74,9 @@ class ReusableCard extends StatelessWidget {
                 color: colorForTextINR,
               ),
             ),
-            Checkbox(),
+            Checkbox(
+              value: true,
+            ),
           ],
         ),
       ),
