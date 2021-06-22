@@ -127,7 +127,9 @@ class _CryptoListState extends State<CryptoList>
         backgroundColor: Colors.blue[400],
       ),
       body: _loading
-          ? SpinKitChasingDots()
+          ? SpinKitChasingDots(
+              color: Colors.blue,
+            )
           : Stack(
               children: <Widget>[
                 Container(
