@@ -100,7 +100,9 @@ class _LoginPageState extends State<LoginPage> {
                   elevation: 5.0,
                   child: MaterialButton(
                     onPressed: () async {
-                      setState(() {});
+                      setState(() {
+                        isLoading = true;
+                      });
                       try {
                         final loggedInUser = _auth.signInWithEmailAndPassword(
                             email: email, password: password);
