@@ -279,6 +279,9 @@ class _CryptoListState extends State<CryptoList>
               ),
               ScaleTransition(
                 scale: animation,
+              ),
+              ScaleTransition(
+                scale: animation,
                 child: ReusableCard(
                   Colors.blue[800],
                   'images/Qtum.png',
