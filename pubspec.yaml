@@ -17,6 +17,7 @@ dependencies:
   flutter_signin_button: ^2.0.0
   http: ^0.13.3
   animated_text_kit: ^4.2.1
+  flutter_spinkit: ^4.1.2
 
 dev_dependencies:
   flutter_test:
