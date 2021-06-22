@@ -100,7 +100,9 @@ class _LoginPageState extends State<LoginPage> {
                       final loggedInUser = _auth.signInWithEmailAndPassword(
                           email: email, password: password);
                       Navigator.pushNamed(context, HomePage.id);
-                    } catch (exception) {}
+                    } catch (exception) {
+                      print(exception);
+                    }
                   },
                   minWidth: 200.0,
                   height: 42.0,
