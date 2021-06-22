@@ -77,6 +77,8 @@ class ReusableCard extends StatelessWidget {
             Checkbox(
               value: true,
               onChanged: null,
+              fillColor:
+                  MaterialStateProperty.resolveWith((states) => Colors.blue),
             ),
           ],
         ),
