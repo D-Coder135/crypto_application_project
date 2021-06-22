@@ -96,9 +96,11 @@ class _LoginPageState extends State<LoginPage> {
                 elevation: 5.0,
                 child: MaterialButton(
                   onPressed: () async {
-                    final loggedInUser = _auth.signInWithEmailAndPassword(
-                        email: email, password: password);
-                    Navigator.pushNamed(context, HomePage.id);
+                    try {
+                      final loggedInUser = _auth.signInWithEmailAndPassword(
+                          email: email, password: password);
+                      Navigator.pushNamed(context, HomePage.id);
+                    } catch (exception) {}
                   },
                   minWidth: 200.0,
                   height: 42.0,
