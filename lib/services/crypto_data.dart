@@ -33,8 +33,8 @@ class CryptoData {
       ratesList.add(double.parse(currentRateInString).toInt());
     }
 
-    void updateSubscribedCrypto(ReusableCard currency) {
-      currency.toggleSubscribed();
-    }
+    // void updateSubscribedCrypto(ReusableCard currency) {
+    //   currency.toggleSubscribed();
+    // }
   }
 }
