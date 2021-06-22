@@ -33,5 +33,7 @@ class CryptoData {
       var currentRateInString = currencyData['data']['rateUsd'];
       ratesList.add(double.parse(currentRateInString).toInt());
     }
+
+    void updateSubscribedCrypto(ReusableCard currency) {}
   }
 }
