@@ -173,7 +173,7 @@ class _CryptoListState extends State<CryptoList>
                         'images/usdcoin.jpg',
                         'USDCoin(USDC)',
                         2.5,
-                        150.0,
+                        140.0,
                         '\$ ${rateList[2]}',
                         Colors.orange[700],
                         '₹ ${rateList[2] * 72}',
