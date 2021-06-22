@@ -113,6 +113,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                           final newUser =
                               await _auth.createUserWithEmailAndPassword(
                                   email: email, password: password);
+                          if (newUser != null) {}
                         } catch (exception) {
                           print(exception);
                         }
