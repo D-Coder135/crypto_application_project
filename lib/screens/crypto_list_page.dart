@@ -83,6 +83,7 @@ class _CryptoListState extends State<CryptoList>
   void initState() {
     super.initState();
     // getCurrentRate();
+    getData();
 
     controller = AnimationController(
       duration: Duration(seconds: 3),
