@@ -70,7 +70,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   obscureText: true,
                   textAlign: TextAlign.center,
                   onChanged: (value) {
-                    // password = value;
+                    password = value;
                   },
                   decoration: InputDecoration(
                     // filled: true,
