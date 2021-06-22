@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// ignore: must_be_immutable
 class ReusableCard extends StatelessWidget {
   final Color colour;
   final String imageFileName;
@@ -11,10 +10,10 @@ class ReusableCard extends StatelessWidget {
   final Color colorForTextUSD;
   final String textForINRRate;
   final Color colorForTextINR;
-  bool isSubscribed;
-  final Function(bool) toggleCheckboxState;
+  // bool isSubscribed;
+  // final Function(bool) toggleCheckboxState;
 
-  ReusableCard({
+  ReusableCard(
     this.colour,
     this.imageFileName,
     this.text,
@@ -24,13 +23,13 @@ class ReusableCard extends StatelessWidget {
     this.colorForTextUSD,
     this.textForINRRate,
     this.colorForTextINR,
-    this.isSubscribed = false,
-    this.toggleCheckboxState,
-  });
+    // this.isSubscribed = false,
+    // this.toggleCheckboxState,
+  );
 
-  void toggleSubscribed() {
-    isSubscribed = !isSubscribed;
-  }
+  // void toggleSubscribed() {
+  //   isSubscribed = !isSubscribed;
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -82,12 +81,12 @@ class ReusableCard extends StatelessWidget {
                 color: colorForTextINR,
               ),
             ),
-            Checkbox(
-              value: isSubscribed,
-              onChanged: toggleCheckboxState,
-              fillColor:
-                  MaterialStateProperty.resolveWith((states) => Colors.blue),
-            ),
+            // Checkbox(
+            //   value: isSubscribed,
+            //   onChanged: toggleCheckboxState,
+            //   fillColor:
+            //       MaterialStateProperty.resolveWith((states) => Colors.blue),
+            // ),
           ],
         ),
       ),
