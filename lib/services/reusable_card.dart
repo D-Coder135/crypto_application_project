@@ -76,6 +76,7 @@ class ReusableCard extends StatelessWidget {
             ),
             Checkbox(
               value: true,
+              onChanged: null,
             ),
           ],
         ),
