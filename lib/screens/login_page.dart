@@ -61,9 +61,7 @@ class _LoginPageState extends State<LoginPage> {
             TextField(
               obscureText: true,
               textAlign: TextAlign.center,
-              onChanged: (value) {
-                //Do something with the user input.
-              },
+              onChanged: (value) {},
               decoration: InputDecoration(
                 hintText: 'Enter your password.',
                 contentPadding:
