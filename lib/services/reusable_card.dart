@@ -26,6 +26,7 @@ class ReusableCard extends StatelessWidget {
     this.textForINRRate,
     this.colorForTextINR,
     this.isChecked,
+    this.toggleCheckboxState,
   );
 
   @override
