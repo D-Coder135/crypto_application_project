@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 class ReusableCard extends StatelessWidget {
@@ -72,6 +74,7 @@ class ReusableCard extends StatelessWidget {
                 color: colorForTextINR,
               ),
             ),
+            Checkbox(),
           ],
         ),
       ),
