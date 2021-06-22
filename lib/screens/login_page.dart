@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                 borderRadius: BorderRadius.all(Radius.circular(30.0)),
                 elevation: 5.0,
                 child: MaterialButton(
-                  onPressed: () {
+                  onPressed: () async {
                     final loggedInUser = _auth.signInWithEmailAndPassword(
                         email: email, password: password);
                     Navigator.pushNamed(context, HomePage.id);
