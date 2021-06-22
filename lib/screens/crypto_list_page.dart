@@ -162,7 +162,7 @@ class _CryptoListState extends State<CryptoList>
                         'images/Ethereum.png',
                         'Ethereum(ETH)',
                         0.5,
-                        100.0,
+                        80.0,
                         '\$ ${rateList[1]}',
                         Colors.lightBlue[700],
                         '₹ ${rateList[1] * 72}',
