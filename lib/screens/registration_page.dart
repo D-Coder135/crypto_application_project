@@ -110,7 +110,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     child: MaterialButton(
                       onPressed: () {
                         Navigator.pushNamed(context, HomePage.id);
-                        //Implement registration functionality.
+
                         // try {
                         //   final newUser =
                         //       await _auth.createUserWithEmailAndPassword(
