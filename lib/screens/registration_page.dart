@@ -20,6 +20,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ModalProgressHUD(
+        inAsyncCall: isLoading,
         child: Stack(
           children: <Widget>[
             Padding(
