@@ -94,7 +94,6 @@ class _LoginPageState extends State<LoginPage> {
                 elevation: 5.0,
                 child: MaterialButton(
                   onPressed: () {
-                    //Implement login functionality.
                     Navigator.pushNamed(context, HomePage.id);
                   },
                   minWidth: 200.0,
