@@ -13,6 +13,7 @@ class ReusableCard extends StatelessWidget {
   final String textForINRRate;
   final Color colorForTextINR;
   final bool isChecked;
+  final Function() toggleCheckboxState;
 
   ReusableCard(
       this.colour,
