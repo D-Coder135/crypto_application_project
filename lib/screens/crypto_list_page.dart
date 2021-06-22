@@ -263,9 +263,9 @@ class _CryptoListState extends State<CryptoList>
                         3.0,
                         120.0,
                         '\$ ${rateList[10]}',
-                        Colors.indigo[800],
+                        Colors.indigo[900],
                         '₹ ${rateList[10] * 72}',
-                        Colors.blue[900],
+                        Colors.indigo[900],
                       ),
                       ReusableCard(
                         Color(0xFFC59300),
