@@ -13,7 +13,7 @@ class ReusableCard extends StatelessWidget {
   final bool isChecked;
   final Function(bool) toggleCheckboxState;
 
-  ReusableCard(
+  ReusableCard({
     this.colour,
     this.imageFileName,
     this.text,
@@ -23,9 +23,9 @@ class ReusableCard extends StatelessWidget {
     this.colorForTextUSD,
     this.textForINRRate,
     this.colorForTextINR,
-    this.isChecked,
+    this.isChecked = false,
     this.toggleCheckboxState,
-  );
+  });
 
   @override
   Widget build(BuildContext context) {
