@@ -71,7 +71,7 @@ class _CryptoListState extends State<CryptoList>
   //     print(exception);
   //   }
   // }
-  void getData() {}
+  void getData() async {}
 
   @override
   void initState() {
