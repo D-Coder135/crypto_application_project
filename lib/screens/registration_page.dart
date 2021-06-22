@@ -123,6 +123,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                             if (newUser != null) {
                               Navigator.pushNamed(context, HomePage.id);
                             }
+                            setState(() {});
                           } catch (exception) {
                             print(exception);
                           }
