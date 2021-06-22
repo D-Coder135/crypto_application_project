@@ -23,7 +23,6 @@ const List<String> cryptoCurrenciesList = [
 
 class CryptoData {
   List<int> ratesList = [];
-  List<ReusableCard> _subscribedCrypto;
 
   Future<void> getCryptoData() async {
     for (int index = 0; index < cryptoCurrenciesList.length; index++) {
