@@ -113,11 +113,12 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                           final newUser =
                               await _auth.createUserWithEmailAndPassword(
                                   email: email, password: password);
-                          if (newUser != null) {}
+                          if (newUser != null) {
+                            Navigator.pushNamed(context, HomePage.id);
+                          }
                         } catch (exception) {
                           print(exception);
                         }
-                        // Navigator.pushNamed(context, HomePage.id);
                       },
                       minWidth: 200.0,
                       height: 42.0,
