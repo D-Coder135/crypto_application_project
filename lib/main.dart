@@ -9,7 +9,7 @@ import 'screens/front_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp();
+  await Firebase.initializeApp();
   runApp(CryptoApp());
 }
 
