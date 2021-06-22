@@ -28,7 +28,9 @@ class ReusableCard extends StatelessWidget {
     this.toggleCheckboxState,
   });
 
-  void toggleSubscribed() {}
+  void toggleSubscribed() {
+    isSubscribed = !isSubscribed;
+  }
 
   @override
   Widget build(BuildContext context) {
