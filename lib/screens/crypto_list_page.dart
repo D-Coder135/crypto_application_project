@@ -88,7 +88,6 @@ class _CryptoListState extends State<CryptoList>
                 ScaleTransition(
                   scale: animation,
                   child: ListView(
-                    // crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
                       ReusableCard(
                         Color(0xFFFCE5C9),
