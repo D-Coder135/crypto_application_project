@@ -37,7 +37,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   keyboardType: TextInputType.emailAddress,
                   textAlign: TextAlign.center,
                   onChanged: (value) {
-                    //Do something with the user input.
                     // email = value;
                   },
                   decoration: InputDecoration(
