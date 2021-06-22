@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:demo_crypto_app/services/networking.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +24,7 @@ const List<String> cryptoCurrenciesList = [
 ];
 
 class CryptoData {
+  List<Double> ratesList = [];
   Future<dynamic> getCryptoData(int index) async {
     NetworkHelper networkHelper =
         NetworkHelper('$coinCapURL/${cryptoCurrenciesList[index]}');
