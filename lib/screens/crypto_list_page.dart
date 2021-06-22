@@ -73,7 +73,7 @@ class _CryptoListState extends State<CryptoList>
   // }
   void getData() async {
     CryptoData data = CryptoData();
-    data.getCryptoData();
+    await data.getCryptoData();
   }
 
   @override
