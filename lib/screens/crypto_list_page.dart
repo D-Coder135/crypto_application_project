@@ -279,7 +279,17 @@ class _CryptoListState extends State<CryptoList>
               ),
               ScaleTransition(
                 scale: animation,
-                child: ReusableCard(),
+                child: ReusableCard(
+                  Color(0xFFC59300),
+                  'images/Dogecoin.png',
+                  'Dogecoin(DOGE)',
+                  2.0,
+                  120.0,
+                  '\$',
+                  Colors.deepOrangeAccent[700],
+                  '₹',
+                  Colors.deepOrange[800],
+                ),
               ),
               ScaleTransition(
                 scale: animation,
