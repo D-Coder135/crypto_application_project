@@ -99,8 +99,9 @@ class _LoginPageState extends State<LoginPage> {
                     try {
                       final loggedInUser = _auth.signInWithEmailAndPassword(
                           email: email, password: password);
-                      if (loggedInUser != null) {}
-                      Navigator.pushNamed(context, HomePage.id);
+                      if (loggedInUser != null) {
+                        Navigator.pushNamed(context, HomePage.id);
+                      }
                     } catch (exception) {
                       print(exception);
                     }
