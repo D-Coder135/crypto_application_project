@@ -1,6 +1,7 @@
 import 'dart:ffi';
 
 import 'package:demo_crypto_app/services/networking.dart';
+import 'package:demo_crypto_app/services/reusable_card.dart';
 import 'package:flutter/material.dart';
 
 const coinCapURL = 'https://api.coincap.io/v2/rates';
@@ -25,6 +26,8 @@ const List<String> cryptoCurrenciesList = [
 
 class CryptoData {
   List<int> ratesList = [];
+  List<ReusableCard> _subscribedCrypto;
+
   Future<void> getCryptoData() async {
     for (int index = 0; index < cryptoCurrenciesList.length; index++) {
       NetworkHelper networkHelper =
