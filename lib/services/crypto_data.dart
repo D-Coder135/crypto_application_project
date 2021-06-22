@@ -15,6 +15,7 @@ const List<String> cryptoCurrenciesList = [
   'eos',
   'multi-collateral-dai',
   'waves',
+  'dogecoin',
   'qtum',
   'husd',
   'zcash',
