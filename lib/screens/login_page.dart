@@ -34,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
               textAlign: TextAlign.center,
               keyboardType: TextInputType.emailAddress,
               onChanged: (value) {
-                //Do something with the user input.
+                email = value;
               },
               decoration: InputDecoration(
                 hintText: 'Enter your email',
