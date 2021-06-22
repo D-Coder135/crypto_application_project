@@ -15,62 +15,62 @@ class _CryptoListState extends State<CryptoList>
   AnimationController controller;
   Animation animation;
 
-  var currentRateInUSDBitcoin;
-  var currentRateInUSDEthereum;
-  var currentRateInUSDUSDC;
-  var currentRateInUSDLiteCoin;
-  var currentRateInUSDDash;
-  var currentRateInINRBitcoin;
-  var currentRateInINREthereum;
-  var currentRateInINRUSDC;
-  var currentRateInINRLiteCoin;
-  var currentRateInINRDash;
-
-  void getCurrentRate() async {
-    try {
-      for (int index = 0; index < cryptoCurrenciesList.length; index++) {
-        var data = await CryptoData().getCryptoData(index);
-        if (index == 0) {
-          setState(() {
-            var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDBitcoin =
-                double.parse(currentRateInUSDInString).toInt();
-            currentRateInINRBitcoin = currentRateInUSDBitcoin * 72;
-          });
-        } else if (index == 1) {
-          setState(() {
-            var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDEthereum =
-                double.parse(currentRateInUSDInString).toInt();
-            currentRateInINREthereum = currentRateInUSDEthereum * 72;
-          });
-        } else if (index == 2) {
-          setState(() {
-            var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDUSDC =
-                double.parse(currentRateInUSDInString).toInt();
-            currentRateInINRUSDC = currentRateInUSDUSDC * 72;
-          });
-        } else if (index == 3) {
-          setState(() {
-            var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDLiteCoin =
-                double.parse(currentRateInUSDInString).toInt();
-            currentRateInINRLiteCoin = currentRateInUSDLiteCoin * 72;
-          });
-        } else {
-          setState(() {
-            var currentRateInUSDInString = data['data']['rateUsd'];
-            currentRateInUSDDash =
-                double.parse(currentRateInUSDInString).toInt();
-            currentRateInINRDash = currentRateInUSDDash * 72;
-          });
-        }
-      }
-    } catch (exception) {
-      print(exception);
-    }
-  }
+  // var currentRateInUSDBitcoin;
+  // var currentRateInUSDEthereum;
+  // var currentRateInUSDUSDC;
+  // var currentRateInUSDLiteCoin;
+  // var currentRateInUSDDash;
+  // var currentRateInINRBitcoin;
+  // var currentRateInINREthereum;
+  // var currentRateInINRUSDC;
+  // var currentRateInINRLiteCoin;
+  // var currentRateInINRDash;
+  //
+  // void getCurrentRate() async {
+  //   try {
+  //     for (int index = 0; index < cryptoCurrenciesList.length; index++) {
+  //       var data = await CryptoData().getCryptoData(index);
+  //       if (index == 0) {
+  //         setState(() {
+  //           var currentRateInUSDInString = data['data']['rateUsd'];
+  //           currentRateInUSDBitcoin =
+  //               double.parse(currentRateInUSDInString).toInt();
+  //           currentRateInINRBitcoin = currentRateInUSDBitcoin * 72;
+  //         });
+  //       } else if (index == 1) {
+  //         setState(() {
+  //           var currentRateInUSDInString = data['data']['rateUsd'];
+  //           currentRateInUSDEthereum =
+  //               double.parse(currentRateInUSDInString).toInt();
+  //           currentRateInINREthereum = currentRateInUSDEthereum * 72;
+  //         });
+  //       } else if (index == 2) {
+  //         setState(() {
+  //           var currentRateInUSDInString = data['data']['rateUsd'];
+  //           currentRateInUSDUSDC =
+  //               double.parse(currentRateInUSDInString).toInt();
+  //           currentRateInINRUSDC = currentRateInUSDUSDC * 72;
+  //         });
+  //       } else if (index == 3) {
+  //         setState(() {
+  //           var currentRateInUSDInString = data['data']['rateUsd'];
+  //           currentRateInUSDLiteCoin =
+  //               double.parse(currentRateInUSDInString).toInt();
+  //           currentRateInINRLiteCoin = currentRateInUSDLiteCoin * 72;
+  //         });
+  //       } else {
+  //         setState(() {
+  //           var currentRateInUSDInString = data['data']['rateUsd'];
+  //           currentRateInUSDDash =
+  //               double.parse(currentRateInUSDInString).toInt();
+  //           currentRateInINRDash = currentRateInUSDDash * 72;
+  //         });
+  //       }
+  //     }
+  //   } catch (exception) {
+  //     print(exception);
+  //   }
+  // }
 
   @override
   void initState() {
