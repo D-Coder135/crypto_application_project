@@ -16,15 +16,17 @@ class ReusableCard extends StatelessWidget {
   final Function() toggleCheckboxState;
 
   ReusableCard(
-      this.colour,
-      this.imageFileName,
-      this.text,
-      this.letterSpacingValue,
-      this.marginValue,
-      this.textForUSDRate,
-      this.colorForTextUSD,
-      this.textForINRRate,
-      this.colorForTextINR);
+    this.colour,
+    this.imageFileName,
+    this.text,
+    this.letterSpacingValue,
+    this.marginValue,
+    this.textForUSDRate,
+    this.colorForTextUSD,
+    this.textForINRRate,
+    this.colorForTextINR,
+    this.isChecked,
+  );
 
   @override
   Widget build(BuildContext context) {
