@@ -12,6 +12,7 @@ class ReusableCard extends StatelessWidget {
   final Color colorForTextUSD;
   final String textForINRRate;
   final Color colorForTextINR;
+  final bool isChecked;
 
   ReusableCard(
       this.colour,
