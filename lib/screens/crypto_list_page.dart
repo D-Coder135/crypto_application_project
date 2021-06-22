@@ -235,10 +235,10 @@ class _CryptoListState extends State<CryptoList>
                         Colors.blueGrey[900],
                       ),
                       ReusableCard(
-                        Color(0xFF424242),
+                        Color(0xAA424242),
                         'images/eos.png',
                         'EOS(EOSIO)',
-                        4.0,
+                        6.0,
                         120,
                         '\$ ${rateList[8]}',
                         Colors.black54,
