@@ -6,7 +6,9 @@ import 'package:demo_crypto_app/screens/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'screens/front_page.dart';
 
-void main() => runApp(CryptoApp());
+void main() {
+  runApp(CryptoApp());
+}
 
 class CryptoApp extends StatelessWidget {
   @override
