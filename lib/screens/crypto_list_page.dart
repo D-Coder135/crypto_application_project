@@ -81,7 +81,9 @@ class _CryptoListState extends State<CryptoList>
     });
     await data.getCryptoData();
     rateList = data.ratesList;
-    setState(() {});
+    setState(() {
+      _loading = false;
+    });
   }
 
   @override
