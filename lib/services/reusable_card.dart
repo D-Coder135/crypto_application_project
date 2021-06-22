@@ -10,7 +10,7 @@ class ReusableCard extends StatelessWidget {
   final Color colorForTextUSD;
   final String textForINRRate;
   final Color colorForTextINR;
-  final bool isChecked;
+  final bool isSubscribed;
   final Function(bool) toggleCheckboxState;
 
   ReusableCard({
@@ -23,7 +23,7 @@ class ReusableCard extends StatelessWidget {
     this.colorForTextUSD,
     this.textForINRRate,
     this.colorForTextINR,
-    this.isChecked = false,
+    this.isSubscribed = false,
     this.toggleCheckboxState,
   });
 
@@ -80,7 +80,7 @@ class ReusableCard extends StatelessWidget {
               ),
             ),
             Checkbox(
-              value: isChecked,
+              value: isSubscribed,
               onChanged: toggleCheckboxState,
               fillColor:
                   MaterialStateProperty.resolveWith((states) => Colors.blue),
