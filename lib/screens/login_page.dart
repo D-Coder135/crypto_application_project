@@ -109,7 +109,9 @@ class _LoginPageState extends State<LoginPage> {
                         if (loggedInUser != null) {
                           Navigator.pushNamed(context, HomePage.id);
                         }
-                        setState(() {});
+                        setState(() {
+                          isLoading = false;
+                        });
                       } catch (exception) {
                         print(exception);
                       }
