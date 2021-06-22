@@ -109,8 +109,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     elevation: 5.0,
                     child: MaterialButton(
                       onPressed: () async {
-                        final newUser = _auth.createUserWithEmailAndPassword(
-                            email: email, password: password);
+                        final newUser =
+                            await _auth.createUserWithEmailAndPassword(
+                                email: email, password: password);
                         // Navigator.pushNamed(context, HomePage.id);
                       },
                       minWidth: 200.0,
