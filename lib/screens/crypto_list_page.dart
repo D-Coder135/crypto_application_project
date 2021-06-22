@@ -15,6 +15,8 @@ class _CryptoListState extends State<CryptoList>
   AnimationController controller;
   Animation animation;
 
+  var rateList;
+
   // var currentRateInUSDBitcoin;
   // var currentRateInUSDEthereum;
   // var currentRateInUSDUSDC;
