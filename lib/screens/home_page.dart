@@ -51,7 +51,9 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.only(top: 130.0, bottom: 100.0),
               child: AnimatedTextKit(
                 animatedTexts: [
-                  TyperAnimatedText(text),
+                  TyperAnimatedText(
+                    "Subscribed Currencies!",
+                  ),
                 ],
               ),
               // child: Text(
