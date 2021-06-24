@@ -49,15 +49,15 @@ class _HomePageState extends State<HomePage> {
             ),
             child: Padding(
               padding: EdgeInsets.only(top: 130.0, bottom: 100.0),
-              child: Text(
-                "Subscribed Currencies!",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30.0,
-                  fontFamily: 'Marker',
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
+              // child: Text(
+              //   "Subscribed Currencies!",
+              //   style: TextStyle(
+              //     color: Colors.white,
+              //     fontSize: 30.0,
+              //     fontFamily: 'Marker',
+              //     fontWeight: FontWeight.w500,
+              //   ),
+              // ),
             ),
           ),
           Expanded(
