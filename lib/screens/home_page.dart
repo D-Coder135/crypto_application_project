@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xAAD3F0FF),
+      backgroundColor: Color(0xFF443CA2),
       // appBar: AppBar(
       //   backgroundColor: Colors.blueGrey[300],
       //   brightness: Brightness.light,
