@@ -38,7 +38,14 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Column(
         children: <Widget>[
-          Container(),
+          Container(
+            padding: EdgeInsets.only(
+              top: 60.0,
+              left: 30.0,
+              right: 30.0,
+              bottom: 30.0,
+            ),
+          ),
         ],
       ),
       // body: Expanded(
