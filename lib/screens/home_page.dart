@@ -36,18 +36,18 @@ class _HomePageState extends State<HomePage> {
           Navigator.pushNamed(context, CryptoList.id);
         },
       ),
-      body: Expanded(
-        child: Container(
-          padding: EdgeInsets.symmetric(horizontal: 20.0),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(20.0),
-              topRight: Radius.circular(20.0),
-            ),
-          ),
-        ),
-      ),
+      // body: Expanded(
+      //   child: Container(
+      //     padding: EdgeInsets.symmetric(horizontal: 20.0),
+      //     decoration: BoxDecoration(
+      //       color: Colors.white,
+      //       borderRadius: BorderRadius.only(
+      //         topLeft: Radius.circular(20.0),
+      //         topRight: Radius.circular(20.0),
+      //       ),
+      //     ),
+      //   ),
+      // ),
     );
   }
 }
