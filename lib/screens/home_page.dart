@@ -62,15 +62,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
               ),
-              // child: Text(
-              //   "Subscribed Currencies!",
-              //   style: TextStyle(
-              //     color: Colors.white,
-              //     fontSize: 30.0,
-              //     fontFamily: 'Marker',
-              //     fontWeight: FontWeight.w500,
-              //   ),
-              // ),
             ),
           ),
           Expanded(
