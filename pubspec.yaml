@@ -44,3 +44,6 @@ flutter:
     - family: Farro
       fonts:
         - asset: fonts/Farro-Regular.ttf
+    - family: Marker
+      fonts:
+          - asset: fonts/PermanentMarker-Regular.ttf
