@@ -43,6 +43,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(20.0),
+              topRight: Radius.circular(20.0),
             ),
           ),
         ),
