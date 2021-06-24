@@ -64,6 +64,7 @@ class _WelcomePageState extends State<WelcomePage>
                       ),
                     ),
                     AnimatedTextKit(
+                      isRepeatingAnimation: false,
                       animatedTexts: [
                         TypewriterAnimatedText(
                           'Welcome!',
