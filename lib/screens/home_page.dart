@@ -37,7 +37,9 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       body: Expanded(
-        child: Container(),
+        child: Container(
+          padding: EdgeInsets.symmetric(horizontal: 20.0),
+        ),
       ),
     );
   }
