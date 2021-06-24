@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                       fontWeight: FontWeight.w500,
                     ),
                     speed: Duration(
-                      milliseconds: 130,
+                      milliseconds: 90,
                     ),
                   ),
                 ],
