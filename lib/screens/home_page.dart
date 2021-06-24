@@ -39,7 +39,9 @@ class _HomePageState extends State<HomePage> {
       body: Expanded(
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 20.0),
-          decoration: BoxDecoration(),
+          decoration: BoxDecoration(
+            color: Colors.white,
+          ),
         ),
       ),
     );
