@@ -1,5 +1,6 @@
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class HomePage extends StatefulWidget {
   static const String id = 'Home_Page';
@@ -49,7 +50,9 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.only(top: 130.0, bottom: 100.0),
               child: Text(
                 "Subscribed Currencies!",
-                style: TextStyle(),
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
             ),
           ),
