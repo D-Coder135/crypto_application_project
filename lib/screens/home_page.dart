@@ -47,6 +47,18 @@ class _HomePageState extends State<HomePage> {
             ),
             child: Text("Subscribed Currencies!"),
           ),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 20.0),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20.0),
+                  topRight: Radius.circular(20.0),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
       // body: Expanded(
