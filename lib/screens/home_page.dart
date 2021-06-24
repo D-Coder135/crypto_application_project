@@ -45,6 +45,7 @@ class _HomePageState extends State<HomePage> {
               right: 30.0,
               bottom: 30.0,
             ),
+            child: Text("Subscribed Currencies!"),
           ),
         ],
       ),
