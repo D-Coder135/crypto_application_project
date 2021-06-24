@@ -1,6 +1,7 @@
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:animated_text_kit/animated_text_kit.dart';
 
 class HomePage extends StatefulWidget {
   static const String id = 'Home_Page';
