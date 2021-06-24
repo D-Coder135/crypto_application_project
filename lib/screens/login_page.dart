@@ -104,8 +104,9 @@ class _LoginPageState extends State<LoginPage> {
                         isLoading = true;
                       });
                       try {
-                        final loggedInUser = _auth.signInWithEmailAndPassword(
-                            email: email, password: password);
+                        final loggedInUser =
+                            await _auth.signInWithEmailAndPassword(
+                                email: email, password: password);
                         if (loggedInUser != null) {
                           Navigator.pushNamed(context, HomePage.id);
                         }
