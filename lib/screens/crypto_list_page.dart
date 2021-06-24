@@ -14,9 +14,6 @@ class CryptoList extends StatefulWidget {
 
 class _CryptoListState extends State<CryptoList>
     with SingleTickerProviderStateMixin {
-  AnimationController controller;
-  Animation animation;
-
   var rateList;
   bool _loading;
 
@@ -37,23 +34,6 @@ class _CryptoListState extends State<CryptoList>
     super.initState();
     // getCurrentRate();
     getData();
-
-    controller = AnimationController(
-      duration: Duration(seconds: 3),
-      vsync: this,
-    );
-
-    animation = CurvedAnimation(
-      parent: controller,
-      curve: Curves.fastOutSlowIn,
-    );
-    controller.forward();
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
-    controller.dispose();
   }
 
   @override
