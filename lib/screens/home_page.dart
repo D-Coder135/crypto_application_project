@@ -36,7 +36,9 @@ class _HomePageState extends State<HomePage> {
           Navigator.pushNamed(context, CryptoList.id);
         },
       ),
-      body: Expanded(),
+      body: Expanded(
+        child: Container(),
+      ),
     );
   }
 }
