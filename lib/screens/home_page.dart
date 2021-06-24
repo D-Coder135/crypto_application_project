@@ -37,7 +37,9 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       body: Column(
-        children: <Widget>[],
+        children: <Widget>[
+          Container(),
+        ],
       ),
       // body: Expanded(
       //   child: Container(
