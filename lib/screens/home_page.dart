@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                   color: Colors.white,
                   fontSize: 30.0,
                   fontFamily: 'Marker',
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ),
