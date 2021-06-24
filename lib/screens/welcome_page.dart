@@ -68,7 +68,7 @@ class _WelcomePageState extends State<WelcomePage>
                         TypewriterAnimatedText(
                           'Welcome!',
                           textStyle: TextStyle(
-                            // color: Colors.black,
+                            color: Colors.black,
                             fontSize: 45.0,
                             fontWeight: FontWeight.w900,
                           ),
