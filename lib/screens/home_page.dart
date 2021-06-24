@@ -60,6 +60,9 @@ class _HomePageState extends State<HomePage> {
                       fontFamily: 'Marker',
                       fontWeight: FontWeight.w500,
                     ),
+                    speed: Duration(
+                      milliseconds: 130,
+                    ),
                   ),
                 ],
               ),
