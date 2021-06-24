@@ -36,6 +36,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.pushNamed(context, CryptoList.id);
         },
       ),
+      body: Column(),
       // body: Expanded(
       //   child: Container(
       //     padding: EdgeInsets.symmetric(horizontal: 20.0),
