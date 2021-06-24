@@ -53,7 +53,12 @@ class _HomePageState extends State<HomePage> {
                 animatedTexts: [
                   TyperAnimatedText(
                     "Subscribed Currencies!",
-                    textStyle:
+                    textStyle: TextStyle(
+                      color: Colors.white,
+                      fontSize: 30.0,
+                      fontFamily: 'Marker',
+                      fontWeight: FontWeight.w500,
+                    ),
                   ),
                 ],
               ),
