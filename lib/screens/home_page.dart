@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
               bottom: 30.0,
             ),
             child: Padding(
-              padding: EdgeInsets.only(top: 130.0),
+              padding: EdgeInsets.only(top: 130.0, bottom: 100.0),
               child: Text("Subscribed Currencies!"),
             ),
           ),
