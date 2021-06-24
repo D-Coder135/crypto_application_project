@@ -16,6 +16,7 @@ class FrontPage extends StatelessWidget {
             child: Hero(
               tag: 'logo',
               child: Container(
+                padding: EdgeInsets.only(top: 40.0),
                 child: Image(
                   image: AssetImage('images/bitcoin.png'),
                 ),
