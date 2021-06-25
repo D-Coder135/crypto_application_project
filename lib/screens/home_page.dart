@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           Icons.add,
           color: Colors.black,
         ),
-        backgroundColor: Colors.blueGrey[500],
+        backgroundColor: Color(0xFA443CA2),
         onPressed: () {
           Navigator.pushNamed(context, CryptoList.id);
         },
