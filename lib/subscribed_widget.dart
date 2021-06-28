@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class Currency {
+class SubscribedWidget {
   final String currencyName;
   final String imageFile;
   final int rateInUSD;
