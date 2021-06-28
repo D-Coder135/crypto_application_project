@@ -5,6 +5,14 @@ import 'package:provider/provider.dart';
 class SubscribedList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Consumer<SubscribedData>();
+    return Consumer<SubscribedData>(
+      builder: (context, subscribedData, child) {
+        return ListView.builder(
+          itemBuilder: (context, index) {
+            final currency = subscribedData.currencies[index];
+          },
+        );
+      },
+    );
   }
 }
