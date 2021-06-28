@@ -10,5 +10,6 @@ class SubscribedData extends ChangeNotifier {
 
   void addCurrency(String name, String imageFile, int rateInUSD, rateInINR) {
     final currency = Currency(name, imageFile, rateInUSD, rateInINR);
+    _subscribedCurrencies.add(currency);
   }
 }
