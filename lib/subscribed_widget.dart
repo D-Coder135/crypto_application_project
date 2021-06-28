@@ -35,12 +35,12 @@ class SubscribedWidget extends StatelessWidget {
                     fontSize: 19.0,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Farro',
-                    letterSpacing: letterSpacingValue,
+                    letterSpacing: 1.5,
                   ),
                 ),
                 Container(
                   alignment: Alignment.centerLeft,
-                  margin: EdgeInsets.only(top: 5.0, right: marginValue),
+                  margin: EdgeInsets.only(top: 5.0, right: 100.0),
                   child: Text(
                     textForUSDRate,
                     style: TextStyle(
