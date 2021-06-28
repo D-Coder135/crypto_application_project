@@ -45,7 +45,7 @@ class SubscribedWidget extends StatelessWidget {
                     rateInUSD,
                     style: TextStyle(
                       fontSize: 17.0,
-                      color: colorForTextUSD,
+                      color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
