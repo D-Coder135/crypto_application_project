@@ -26,7 +26,7 @@ class SubscribedWidget extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 backgroundImage: AssetImage(imageFile),
-                radius: 35.0,
+                radius: 33.0,
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
