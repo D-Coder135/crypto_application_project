@@ -1,1 +1,3 @@
-class Currency {}
+class Currency {
+  final String currencyName;
+}
