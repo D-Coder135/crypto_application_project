@@ -30,7 +30,7 @@ class SubscribedWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  text,
+                  currencyName,
                   style: TextStyle(
                     fontSize: 19.0,
                     fontWeight: FontWeight.bold,
