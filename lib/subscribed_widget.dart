@@ -60,12 +60,6 @@ class SubscribedWidget extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            // Checkbox(
-            //   value: isSubscribed,
-            //   onChanged: toggleCheckboxState,
-            //   fillColor:
-            //       MaterialStateProperty.resolveWith((states) => Colors.blue),
-            // ),
           ],
         ),
       ),
