@@ -1,4 +1,5 @@
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
+import 'package:demo_crypto_app/subscribed_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
@@ -65,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                   topRight: Radius.circular(20.0),
                 ),
               ),
-              child: SubsribedList(),
+              child: SubscribedList(),
             ),
           ),
         ],
