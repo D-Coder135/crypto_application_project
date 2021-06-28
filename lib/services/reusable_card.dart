@@ -84,6 +84,9 @@ class ReusableCard extends StatelessWidget {
             TextButton(
               child: Text(
                 'Subscribe',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
             ),
           ],
