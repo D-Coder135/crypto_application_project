@@ -65,6 +65,7 @@ class _HomePageState extends State<HomePage> {
                   topRight: Radius.circular(20.0),
                 ),
               ),
+              child: SubsribedList(),
             ),
           ),
         ],
