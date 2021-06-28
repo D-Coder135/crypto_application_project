@@ -5,7 +5,7 @@ class SubscribedWidget extends StatelessWidget {
   final String currencyName;
   final String imageFile;
   final String rateInUSD;
-  final int rateInINR;
+  final String rateInINR;
 
   SubscribedWidget(
       this.currencyName, this.imageFile, this.rateInUSD, this.rateInINR);
