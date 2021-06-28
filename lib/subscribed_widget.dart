@@ -5,4 +5,10 @@ class SubscribedWidget extends StatelessWidget {
   final String imageFile;
   final int rateInUSD;
   final int rateInINR;
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
 }
