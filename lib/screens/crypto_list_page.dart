@@ -126,9 +126,9 @@ class _CryptoListState extends State<CryptoList>
                     ReusableCard(
                       Color(0xAA0ABB8A),
                       'images/bitcoincash.png',
-                      'Bitcoin-Cash(BCH)',
+                      'BitcoinCash(BCH)',
                       0.0,
-                      120.0,
+                      110.0,
                       '\$ ${rateList[5]}',
                       Colors.green[700],
                       '₹ ${rateList[5] * 72}',
