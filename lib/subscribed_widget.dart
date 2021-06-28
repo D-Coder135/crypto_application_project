@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class SubscribedWidget extends StatelessWidget {
   final String currencyName;
@@ -33,7 +34,8 @@ class SubscribedWidget extends StatelessWidget {
                   Text(
                     currencyName,
                     style: TextStyle(
-                      fontSize: 19.0,
+                      color: Colors.white,
+                      fontSize: 18.0,
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Farro',
                       letterSpacing: 1.5,
@@ -45,7 +47,7 @@ class SubscribedWidget extends StatelessWidget {
                     child: Text(
                       '\$ $rateInUSD',
                       style: TextStyle(
-                        fontSize: 17.0,
+                        fontSize: 15.0,
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
@@ -56,7 +58,7 @@ class SubscribedWidget extends StatelessWidget {
               Text(
                 '₹ $rateInINR',
                 style: TextStyle(
-                  fontSize: 19.0,
+                  fontSize: 18.0,
                   fontWeight: FontWeight.w900,
                   color: Colors.white,
                 ),
