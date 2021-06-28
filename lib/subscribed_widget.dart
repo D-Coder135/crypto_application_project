@@ -42,7 +42,7 @@ class SubscribedWidget extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   margin: EdgeInsets.only(top: 5.0, right: 100.0),
                   child: Text(
-                    textForUSDRate,
+                    rateInUSD,
                     style: TextStyle(
                       fontSize: 17.0,
                       color: colorForTextUSD,
