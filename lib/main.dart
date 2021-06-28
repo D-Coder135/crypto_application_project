@@ -5,6 +5,7 @@ import 'package:demo_crypto_app/screens/registration_page.dart';
 import 'package:demo_crypto_app/screens/welcome_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'screens/front_page.dart';
 
 void main() async {
@@ -16,16 +17,18 @@ void main() async {
 class CryptoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      initialRoute: FrontPage.id,
-      routes: {
-        FrontPage.id: (context) => FrontPage(),
-        WelcomePage.id: (context) => WelcomePage(),
-        LoginPage.id: (context) => LoginPage(),
-        RegistrationScreen.id: (context) => RegistrationScreen(),
-        HomePage.id: (context) => HomePage(),
-        CryptoList.id: (context) => CryptoList(),
-      },
+    return ChangeNotifierProvider(
+      child: MaterialApp(
+        initialRoute: FrontPage.id,
+        routes: {
+          FrontPage.id: (context) => FrontPage(),
+          WelcomePage.id: (context) => WelcomePage(),
+          LoginPage.id: (context) => LoginPage(),
+          RegistrationScreen.id: (context) => RegistrationScreen(),
+          HomePage.id: (context) => HomePage(),
+          CryptoList.id: (context) => CryptoList(),
+        },
+      ),
     );
   }
 }
