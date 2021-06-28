@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 class SubscribedWidget extends StatelessWidget {
   final String currencyName;
   final String imageFile;
-  final String rateInUSD;
-  final String rateInINR;
+  final int rateInUSD;
+  final int rateInINR;
 
   SubscribedWidget(
       this.currencyName, this.imageFile, this.rateInUSD, this.rateInINR);
