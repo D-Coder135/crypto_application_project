@@ -57,7 +57,7 @@ class SubscribedWidget extends StatelessWidget {
               style: TextStyle(
                 fontSize: 19.0,
                 fontWeight: FontWeight.w900,
-                color: colorForTextINR,
+                color: Colors.white,
               ),
             ),
             // Checkbox(
