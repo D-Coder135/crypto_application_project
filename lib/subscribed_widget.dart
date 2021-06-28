@@ -6,6 +6,9 @@ class SubscribedWidget extends StatelessWidget {
   final int rateInUSD;
   final int rateInINR;
 
+  SubscribedWidget(
+      this.currencyName, this.imageFile, this.rateInUSD, this.rateInINR);
+
   @override
   Widget build(BuildContext context) {
     throw UnimplementedError();
