@@ -15,7 +15,7 @@ class SubscribedWidget extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.all(10.0),
         decoration: BoxDecoration(
-          color: colour,
+          color: Color(0xFA443CA2),
           borderRadius: BorderRadius.circular(10.0),
         ),
         child: Row(
