@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class SubscribedWidget {
+class SubscribedWidget extends StatelessWidget {
   final String currencyName;
   final String imageFile;
   final int rateInUSD;
