@@ -93,7 +93,7 @@ class ReusableCard extends StatelessWidget {
                   Colors.red,
                 ),
               ),
-              onPressed: null,
+              onPressed: () {},
             ),
           ],
         ),
