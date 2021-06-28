@@ -41,7 +41,7 @@ class SubscribedWidget extends StatelessWidget {
                   ),
                   Container(
                     alignment: Alignment.centerLeft,
-                    margin: EdgeInsets.only(top: 5.0, right: 100.0),
+                    margin: EdgeInsets.only(top: 5.0, right: 45.0),
                     child: Text(
                       '\$ $rateInUSD',
                       style: TextStyle(
@@ -61,6 +61,7 @@ class SubscribedWidget extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              Checkbox(value: true, onChanged: null)
             ],
           ),
         ),
