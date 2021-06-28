@@ -12,55 +12,57 @@ class SubscribedWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Container(
-        margin: EdgeInsets.all(10.0),
-        decoration: BoxDecoration(
-          color: Color(0xFA443CA2),
-          borderRadius: BorderRadius.circular(10.0),
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: <Widget>[
-            CircleAvatar(
-              backgroundImage: AssetImage(imageFile),
-              radius: 35.0,
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  currencyName,
-                  style: TextStyle(
-                    fontSize: 19.0,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Farro',
-                    letterSpacing: 1.5,
-                  ),
-                ),
-                Container(
-                  alignment: Alignment.centerLeft,
-                  margin: EdgeInsets.only(top: 5.0, right: 100.0),
-                  child: Text(
-                    '\$ $rateInUSD',
+    return ListTile(
+      title: Expanded(
+        child: Container(
+          margin: EdgeInsets.all(10.0),
+          decoration: BoxDecoration(
+            color: Color(0xFA443CA2),
+            borderRadius: BorderRadius.circular(10.0),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              CircleAvatar(
+                backgroundImage: AssetImage(imageFile),
+                radius: 35.0,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    currencyName,
                     style: TextStyle(
-                      fontSize: 17.0,
-                      color: Colors.white,
+                      fontSize: 19.0,
                       fontWeight: FontWeight.bold,
+                      fontFamily: 'Farro',
+                      letterSpacing: 1.5,
                     ),
                   ),
-                ),
-              ],
-            ),
-            Text(
-              '₹ $rateInINR',
-              style: TextStyle(
-                fontSize: 19.0,
-                fontWeight: FontWeight.w900,
-                color: Colors.white,
+                  Container(
+                    alignment: Alignment.centerLeft,
+                    margin: EdgeInsets.only(top: 5.0, right: 100.0),
+                    child: Text(
+                      '\$ $rateInUSD',
+                      style: TextStyle(
+                        fontSize: 17.0,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
               ),
-            ),
-          ],
+              Text(
+                '₹ $rateInINR',
+                style: TextStyle(
+                  fontSize: 19.0,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.white,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
