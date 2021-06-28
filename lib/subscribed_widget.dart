@@ -63,7 +63,6 @@ class SubscribedWidget extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              Checkbox(value: true, onChanged: null)
             ],
           ),
         ),
