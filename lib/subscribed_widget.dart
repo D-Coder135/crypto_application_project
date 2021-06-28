@@ -45,7 +45,7 @@ class SubscribedWidget extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     margin: EdgeInsets.only(top: 5.0, right: 45.0),
                     child: Text(
-                      '\$ $rateInUSD',
+                      '$rateInUSD',
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.white,
@@ -56,7 +56,7 @@ class SubscribedWidget extends StatelessWidget {
                 ],
               ),
               Text(
-                '₹ $rateInINR',
+                '$rateInINR',
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.w900,
