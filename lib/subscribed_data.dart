@@ -7,5 +7,5 @@ class SubscribedData extends ChangeNotifier {
     Currency('BitCoin', 'images/Bitcoin.png', 54000, 2654659)
   ];
 
-  List<SubscribedWidget> get currencies => _subscribedCurrencies;
+  List<Currency> get subscribedCurrencies => _subscribedCurrencies;
 }
