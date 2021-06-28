@@ -96,7 +96,8 @@ class ReusableCard extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                Provider.of<SubscribedData>()
+                Provider.of<SubscribedData>(context, listen: false).addCurrency(
+                    text, imageFileName, textForUSDRate, textForINRRate);
               },
             ),
           ],
