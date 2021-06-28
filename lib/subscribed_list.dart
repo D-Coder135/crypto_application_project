@@ -9,7 +9,8 @@ class SubscribedList extends StatelessWidget {
       builder: (context, subscribedData, child) {
         return ListView.builder(
           itemBuilder: (context, index) {
-            final currency = subscribedData.currencies[index];
+            final currency = subscribedData.subscribedCurrencies[index];
+            return ListTile();
           },
         );
       },
