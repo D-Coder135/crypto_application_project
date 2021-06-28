@@ -53,7 +53,7 @@ class SubscribedWidget extends StatelessWidget {
               ],
             ),
             Text(
-              textForINRRate,
+              rateInINR,
               style: TextStyle(
                 fontSize: 19.0,
                 fontWeight: FontWeight.w900,
