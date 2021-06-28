@@ -1,5 +1,4 @@
 import 'package:demo_crypto_app/currency.dart';
-import 'package:demo_crypto_app/subscribed_widget.dart';
 import 'package:flutter/material.dart';
 
 class SubscribedData extends ChangeNotifier {
