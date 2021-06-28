@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/subscribed_data.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -94,7 +95,9 @@ class ReusableCard extends StatelessWidget {
                   Colors.red,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Provider.of<SubscribedData>()
+              },
             ),
           ],
         ),
