@@ -88,7 +88,11 @@ class ReusableCard extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              style: ButtonStyle(),
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(
+                  Colors.red,
+                ),
+              ),
             ),
           ],
         ),
