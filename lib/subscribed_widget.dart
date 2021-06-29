@@ -71,6 +71,9 @@ class SubscribedWidget extends StatelessWidget {
                     ),
                   ),
                   style: ButtonStyle(
+                    padding: MaterialStateProperty.all(
+                      EdgeInsets.all(0.0),
+                    ),
                     backgroundColor: MaterialStateProperty.all(
                       Colors.red,
                     ),
