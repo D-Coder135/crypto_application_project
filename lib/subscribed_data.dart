@@ -17,5 +17,5 @@ class SubscribedData extends ChangeNotifier {
     notifyListeners();
   }
 
-  void deleteCurrency() {}
+  void deleteCurrency(Currency currency) {}
 }
