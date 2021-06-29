@@ -65,7 +65,7 @@ class SubscribedWidget extends StatelessWidget {
               ),
               TextButton(
                   child: Text(
-                    'Subscribe',
+                    'Unsubscribe',
                     style: TextStyle(
                       color: Colors.white,
                     ),
