@@ -26,7 +26,7 @@ class SubscribedWidget extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 backgroundImage: AssetImage(imageFile),
-                radius: 33.0,
+                radius: 27.0,
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -35,10 +35,10 @@ class SubscribedWidget extends StatelessWidget {
                     currencyName,
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 18.0,
+                      fontSize: 15.0,
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Farro',
-                      letterSpacing: 1.5,
+                      letterSpacing: 0.0,
                     ),
                   ),
                   Container(
@@ -47,7 +47,7 @@ class SubscribedWidget extends StatelessWidget {
                     child: Text(
                       '$rateInUSD',
                       style: TextStyle(
-                        fontSize: 15.0,
+                        fontSize: 12.0,
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
@@ -58,11 +58,24 @@ class SubscribedWidget extends StatelessWidget {
               Text(
                 '$rateInINR',
                 style: TextStyle(
-                  fontSize: 18.0,
+                  fontSize: 15.0,
                   fontWeight: FontWeight.w900,
                   color: Colors.white,
                 ),
               ),
+              TextButton(
+                  child: Text(
+                    'Subscribe',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(
+                      Colors.red,
+                    ),
+                  ),
+                  onPressed: null),
             ],
           ),
         ),
