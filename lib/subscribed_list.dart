@@ -12,7 +12,9 @@ class SubscribedList extends StatelessWidget {
           itemBuilder: (context, index) {
             final currency = subscribedData.subscribedCurrencies[index];
             return SubscribedWidget(currency.currencyName, currency.imageFile,
-                currency.rateInUSD, currency.rateInINR);
+                currency.rateInUSD, currency.rateInINR, () {
+              subscribedData.deleteCurrency(currency);
+            });
           },
           itemCount: subscribedData.currenciesCount,
         );
