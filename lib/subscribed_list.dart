@@ -14,6 +14,7 @@ class SubscribedList extends StatelessWidget {
             return SubscribedWidget(currency.currencyName, currency.imageFile,
                 currency.rateInUSD, currency.rateInINR);
           },
+          itemCount: subscribedData.currenciesCount,
         );
       },
     );
