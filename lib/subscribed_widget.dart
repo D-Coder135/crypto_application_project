@@ -79,7 +79,7 @@ class SubscribedWidget extends StatelessWidget {
                     Colors.red,
                   ),
                 ),
-                onPressed: null,
+                onPressed: unsubscribeCurrency,
               ),
             ],
           ),
