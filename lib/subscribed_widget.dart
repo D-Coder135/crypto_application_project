@@ -9,8 +9,8 @@ class SubscribedWidget extends StatelessWidget {
   final String rateInINR;
   final void Function() unsubscribeCurrency;
 
-  SubscribedWidget(
-      this.currencyName, this.imageFile, this.rateInUSD, this.rateInINR);
+  SubscribedWidget(this.currencyName, this.imageFile, this.rateInUSD,
+      this.rateInINR, this.unsubscribeCurrency);
 
   @override
   Widget build(BuildContext context) {
@@ -65,21 +65,22 @@ class SubscribedWidget extends StatelessWidget {
                 ),
               ),
               TextButton(
-                  child: Text(
-                    'Unsubscribe',
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
+                child: Text(
+                  'Unsubscribe',
+                  style: TextStyle(
+                    color: Colors.white,
                   ),
-                  style: ButtonStyle(
-                    padding: MaterialStateProperty.all(
-                      EdgeInsets.all(0.0),
-                    ),
-                    backgroundColor: MaterialStateProperty.all(
-                      Colors.red,
-                    ),
+                ),
+                style: ButtonStyle(
+                  padding: MaterialStateProperty.all(
+                    EdgeInsets.all(0.0),
                   ),
-                  onPressed: null),
+                  backgroundColor: MaterialStateProperty.all(
+                    Colors.red,
+                  ),
+                ),
+                onPressed: null,
+              ),
             ],
           ),
         ),
