@@ -171,7 +171,7 @@ class _CryptoListState extends State<CryptoList>
                       Color(0xFFF7A005),
                       'images/multi-collateral-dai.png',
                       'MultiCollateral(MCD)',
-                      1.0,
+                      0.5,
                       150.0,
                       '\$ ${rateList[9]}',
                       Colors.orange[900],
