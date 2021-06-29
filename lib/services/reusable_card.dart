@@ -12,8 +12,6 @@ class ReusableCard extends StatelessWidget {
   final Color colorForTextUSD;
   final String textForINRRate;
   final Color colorForTextINR;
-  // bool isSubscribed;
-  // final Function(bool) toggleCheckboxState;
 
   ReusableCard(
     this.colour,
