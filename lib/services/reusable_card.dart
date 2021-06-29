@@ -1,3 +1,4 @@
+import 'package:demo_crypto_app/screens/home_page.dart';
 import 'package:demo_crypto_app/subscribed_data.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -96,6 +97,7 @@ class ReusableCard extends StatelessWidget {
               onPressed: () {
                 Provider.of<SubscribedData>(context, listen: false).addCurrency(
                     text, imageFileName, textForUSDRate, textForINRRate);
+                Navigator.pushNamed(context, HomePage.id);
               },
             ),
           ],
