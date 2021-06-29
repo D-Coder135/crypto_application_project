@@ -17,5 +17,7 @@ class SubscribedData extends ChangeNotifier {
     notifyListeners();
   }
 
-  void deleteCurrency(Currency currency) {}
+  void deleteCurrency(Currency currency) {
+    _subscribedCurrencies.remove(currency);
+  }
 }
