@@ -6,7 +6,9 @@ class SubscribedData extends ChangeNotifier {
 
   List<Currency> get subscribedCurrencies => _subscribedCurrencies;
 
-  int get currenciesCount {}
+  int get currenciesCount {
+    return _subscribedCurrencies.length;
+  }
 
   void addCurrency(
       String name, String imageFile, String rateInUSD, String rateInINR) {
