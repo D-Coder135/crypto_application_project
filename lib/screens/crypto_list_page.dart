@@ -170,8 +170,8 @@ class _CryptoListState extends State<CryptoList>
                     ReusableCard(
                       Color(0xFFF7A005),
                       'images/multi-collateral-dai.png',
-                      'MultiCollateralDai(MCD)',
-                      -1.2,
+                      'MultiCollateral(MCD)',
+                      1.0,
                       150.0,
                       '\$ ${rateList[9]}',
                       Colors.orange[900],
