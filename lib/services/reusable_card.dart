@@ -26,10 +26,6 @@ class ReusableCard extends StatelessWidget {
     this.colorForTextINR,
   );
 
-  // void toggleSubscribed() {
-  //   isSubscribed = !isSubscribed;
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Expanded(
