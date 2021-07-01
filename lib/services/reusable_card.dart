@@ -24,8 +24,6 @@ class ReusableCard extends StatelessWidget {
     this.colorForTextUSD,
     this.textForINRRate,
     this.colorForTextINR,
-    // this.isSubscribed = false,
-    // this.toggleCheckboxState,
   );
 
   // void toggleSubscribed() {
