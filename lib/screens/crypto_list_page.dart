@@ -3,7 +3,6 @@ import 'package:demo_crypto_app/services/crypto_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:provider/provider.dart';
 
 class CryptoList extends StatefulWidget {
   static const String id = 'Crypto_list_Screen';
