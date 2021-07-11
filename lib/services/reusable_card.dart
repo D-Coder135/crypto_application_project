@@ -62,7 +62,7 @@ class ReusableCard extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 17.0,
                       color: colorForTextUSD,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w900,
                     ),
                   ),
                 ),
