@@ -1,6 +1,6 @@
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:demo_crypto_app/screens/login_page.dart';
-import 'package:demo_crypto_app/subscribed_list.dart';
+import 'package:demo_crypto_app/services/subscribed_list.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';

@@ -1,5 +1,5 @@
 import 'package:demo_crypto_app/screens/home_page.dart';
-import 'package:demo_crypto_app/subscribed_data.dart';
+import 'package:demo_crypto_app/services/subscribed_data.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
