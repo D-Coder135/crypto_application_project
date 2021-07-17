@@ -73,7 +73,7 @@ class _WelcomePageState extends State<WelcomePage>
                             fontSize: 45.0,
                             fontWeight: FontWeight.w900,
                           ),
-                          speed: Duration(milliseconds: 200),
+                          speed: Duration(milliseconds: 150),
                         ),
                       ],
                     ),
