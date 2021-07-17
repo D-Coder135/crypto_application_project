@@ -40,7 +40,7 @@ class FrontPage extends StatelessWidget {
                           fontFamily: 'NotoSansJP',
                           fontWeight: FontWeight.bold,
                         ),
-                        speed: Duration(milliseconds: 150),
+                        speed: Duration(milliseconds: 80),
                       ),
                     ],
                     isRepeatingAnimation: false,
