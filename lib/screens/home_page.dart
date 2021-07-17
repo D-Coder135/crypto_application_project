@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                         textStyle: TextStyle(
                           color: Colors.white,
                           fontSize: 30.0,
-                          fontFamily: 'Marker',
+                          fontFamily: 'NunitoSans',
                           fontWeight: FontWeight.w500,
                         ),
                         speed: Duration(
