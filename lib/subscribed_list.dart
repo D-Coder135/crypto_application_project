@@ -51,18 +51,3 @@ class SubscribedList extends StatelessWidget {
         });
   }
 }
-
-// Consumer<SubscribedData>(
-// builder: (context, subscribedData, child) {
-// return ListView.builder(
-// itemBuilder: (context, index) {
-// final currency = subscribedData.subscribedCurrencies[index];
-// return SubscribedWidget(currency.currencyName, currency.imageFile,
-// currency.rateInUSD, currency.rateInINR, () {
-// subscribedData.deleteCurrency(currency);
-// });
-// },
-// itemCount: subscribedData.currenciesCount,
-// );
-// },
-// );
