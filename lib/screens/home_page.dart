@@ -32,16 +32,19 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Stack(
         children: [
-          TextButton(
-            child: CircleAvatar(
-              backgroundImage: AssetImage('images/off.png'),
-              backgroundColor: Color(0xFF443CA2),
-              radius: 15.0,
+          Padding(
+            padding: EdgeInsets.only(top: 45.0, left: 370.0),
+            child: TextButton(
+              child: CircleAvatar(
+                backgroundImage: AssetImage('images/off.png'),
+                backgroundColor: Color(0xFF443CA2),
+                radius: 15.0,
+              ),
+              onPressed: () {
+                _auth.signOut();
+                Navigator.pushNamed(context, LoginPage.id);
+              },
             ),
-            onPressed: () {
-              _auth.signOut();
-              Navigator.pushNamed(context, LoginPage.id);
-            },
           ),
           Column(
             children: <Widget>[
