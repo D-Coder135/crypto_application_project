@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:demo_crypto_app/screens/crypto_list_page.dart';
 import 'package:demo_crypto_app/screens/login_page.dart';
 import 'package:demo_crypto_app/subscribed_list.dart';
@@ -34,6 +32,17 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Stack(
         children: [
+          TextButton(
+            child: CircleAvatar(
+              backgroundImage: AssetImage('images/off.png'),
+              backgroundColor: Color(0xFF443CA2),
+              radius: 15.0,
+            ),
+            onPressed: () {
+              _auth.signOut();
+              Navigator.pushNamed(context, LoginPage.id);
+            },
+          ),
           Column(
             children: <Widget>[
               Container(
