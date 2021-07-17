@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:demo_crypto_app/subscribed_data.dart';
 import 'package:demo_crypto_app/subscribed_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 class SubscribedList extends StatelessWidget {
   final uid = SubscribedData().getCurrentUID();
