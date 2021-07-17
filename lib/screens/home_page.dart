@@ -37,8 +37,8 @@ class _HomePageState extends State<HomePage> {
             child: TextButton(
               child: CircleAvatar(
                 backgroundImage: AssetImage('images/off.png'),
-                backgroundColor: Color(0xFF443CA2),
-                radius: 15.0,
+                backgroundColor: Colors.blueGrey,
+                radius: 12.0,
               ),
               onPressed: () {
                 _auth.signOut();
