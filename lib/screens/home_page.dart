@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                   child: AnimatedTextKit(
                     isRepeatingAnimation: false,
                     animatedTexts: [
-                      TyperAnimatedText(
+                      WavyAnimatedText(
                         "Subscribed Currencies!",
                         textStyle: TextStyle(
                           color: Colors.white,
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.w500,
                         ),
                         speed: Duration(
-                          milliseconds: 90,
+                          milliseconds: 150,
                         ),
                       ),
                     ],
