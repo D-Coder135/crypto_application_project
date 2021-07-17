@@ -13,17 +13,17 @@ class SubscribedData extends ChangeNotifier {
     return (_auth.currentUser).uid;
   }
 
-  List<Currency> _subscribedCurrencies = [];
+  // List<Currency> _subscribedCurrencies = [];
+  //
+  // List<Currency> get subscribedCurrencies => _subscribedCurrencies;
 
-  List<Currency> get subscribedCurrencies => _subscribedCurrencies;
-
-  int get currenciesCount {
-    return _subscribedCurrencies.length;
-  }
+  // int get currenciesCount {
+  //   return _subscribedCurrencies.length;
+  // }
 
   void addCurrency(
       String name, String imageFile, String rateInUSD, String rateInINR) {
-    final currency = Currency(name, imageFile, rateInUSD, rateInINR);
+    // final currency = Currency(name, imageFile, rateInUSD, rateInINR);
 
     final uid = getCurrentUID();
 
@@ -38,12 +38,12 @@ class SubscribedData extends ChangeNotifier {
       'rateInINR': rateInINR
     });
 
-    _subscribedCurrencies.add(currency);
+    // _subscribedCurrencies.add(currency);
     notifyListeners();
   }
 
-  void deleteCurrency(Currency currency) {
-    _subscribedCurrencies.remove(currency);
-    notifyListeners();
-  }
+  // void deleteCurrency(Currency currency) {
+  //   _subscribedCurrencies.remove(currency);
+  //   notifyListeners();
+  // }
 }
