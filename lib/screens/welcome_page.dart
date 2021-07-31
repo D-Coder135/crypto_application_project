@@ -70,7 +70,7 @@ class _WelcomePageState extends State<WelcomePage>
                           'Crypto Crux🤑!',
                           textStyle: TextStyle(
                             color: Colors.black,
-                            fontSize: 45.0,
+                            fontSize: 35.0,
                             fontWeight: FontWeight.w900,
                           ),
                           speed: Duration(milliseconds: 150),
