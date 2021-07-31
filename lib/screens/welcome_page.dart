@@ -67,7 +67,7 @@ class _WelcomePageState extends State<WelcomePage>
                       isRepeatingAnimation: false,
                       animatedTexts: [
                         TypewriterAnimatedText(
-                          'Welcome!',
+                          'Crypto Crux🤑!',
                           textStyle: TextStyle(
                             color: Colors.black,
                             fontSize: 45.0,
