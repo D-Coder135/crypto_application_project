@@ -205,9 +205,9 @@ class _CryptoListState extends State<CryptoList>
                       'Quantum(QTUM)',
                       2.0,
                       130.0,
-                      '\$ ${rateList[12]}',
+                      '\$ ${rateList[11]}',
                       Colors.indigo[900],
-                      '₹ ${rateList[12] * 72}',
+                      '₹ ${rateList[11] * 72}',
                       Colors.indigo[900],
                     ),
                     // ReusableCard(
