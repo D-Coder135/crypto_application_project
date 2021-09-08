@@ -150,9 +150,9 @@ class _CryptoListState extends State<CryptoList>
                       'BinanceCoin(BNB)',
                       0.0,
                       120.0,
-                      '\$ ${rateList[7]}',
+                      '\$ ${rateList[6]}',
                       Colors.blueGrey[800],
-                      '₹ ${rateList[7] * 72}',
+                      '₹ ${rateList[6] * 72}',
                       Colors.blueGrey[900],
                     ),
                     ReusableCard(
