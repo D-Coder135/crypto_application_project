@@ -227,9 +227,9 @@ class _CryptoListState extends State<CryptoList>
                       'ZCash(ZEC)',
                       4.0,
                       90.0,
-                      '\$ ${rateList[14]}',
+                      '\$ ${rateList[12]}',
                       Colors.amber[800],
-                      '₹ ${rateList[14] * 72}',
+                      '₹ ${rateList[12] * 72}',
                       Colors.amber[900],
                     )
                   ],
