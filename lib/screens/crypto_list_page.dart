@@ -139,9 +139,9 @@ class _CryptoListState extends State<CryptoList>
                       'Tether(USDT)',
                       4.0,
                       120.0,
-                      '\$ ${rateList[6]}',
+                      '\$ ${rateList[5]}',
                       Colors.deepOrangeAccent[400],
-                      '₹ ${rateList[6] * 72}',
+                      '₹ ${rateList[5] * 72}',
                       Colors.deepOrangeAccent[700],
                     ),
                     ReusableCard(
