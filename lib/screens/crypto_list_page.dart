@@ -172,9 +172,9 @@ class _CryptoListState extends State<CryptoList>
                       'MultiCollateral(MCD)',
                       0.5,
                       150.0,
-                      '\$ ${rateList[9]}',
+                      '\$ ${rateList[8]}',
                       Colors.orange[900],
-                      '₹ ${rateList[9] * 72}',
+                      '₹ ${rateList[8] * 72}',
                       Colors.orange[900],
                     ),
                     ReusableCard(
