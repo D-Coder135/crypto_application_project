@@ -161,9 +161,9 @@ class _CryptoListState extends State<CryptoList>
                       'EOS(EOSIO)',
                       6.0,
                       120,
-                      '\$ ${rateList[8]}',
+                      '\$ ${rateList[7]}',
                       Colors.black54,
-                      '₹ ${rateList[8] * 72}',
+                      '₹ ${rateList[7] * 72}',
                       Colors.black87,
                     ),
                     ReusableCard(
