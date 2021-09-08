@@ -117,9 +117,9 @@ class _CryptoListState extends State<CryptoList>
                       'Dash(DAO)',
                       5.0,
                       80.0,
-                      '\$ ${rateList[4]}',
+                      '\$ ${rateList[3]}',
                       Colors.indigo[800],
-                      '₹ ${rateList[4] * 72}',
+                      '₹ ${rateList[3] * 72}',
                       Colors.indigo[900],
                     ),
                     ReusableCard(
