@@ -183,9 +183,9 @@ class _CryptoListState extends State<CryptoList>
                       'Waves(WAVES)',
                       3.0,
                       120.0,
-                      '\$ ${rateList[10]}',
+                      '\$ ${rateList[9]}',
                       Colors.indigo[900],
-                      '₹ ${rateList[10] * 72}',
+                      '₹ ${rateList[9] * 72}',
                       Colors.indigo[900],
                     ),
                     ReusableCard(
