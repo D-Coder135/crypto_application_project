@@ -194,9 +194,9 @@ class _CryptoListState extends State<CryptoList>
                       'Dogecoin(DOGE)',
                       3.0,
                       150.0,
-                      '\$ ${rateList[11]}',
+                      '\$ ${rateList[10]}',
                       Colors.deepOrangeAccent[700],
-                      '₹ ${rateList[11] * 72}',
+                      '₹ ${rateList[10] * 72}',
                       Colors.deepOrange[800],
                     ),
                     ReusableCard(
