@@ -106,9 +106,9 @@ class _CryptoListState extends State<CryptoList>
                       'Litecoin(LTC)',
                       2.0,
                       90.0,
-                      '\$ ${rateList[3]}',
+                      '\$ ${rateList[2]}',
                       Colors.purple[700],
-                      '₹ ${rateList[3] * 72}',
+                      '₹ ${rateList[2] * 72}',
                       Colors.purple[800],
                     ),
                     ReusableCard(
