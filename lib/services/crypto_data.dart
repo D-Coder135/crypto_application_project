@@ -1,5 +1,4 @@
 import 'package:demo_crypto_app/services/networking.dart';
-import 'package:demo_crypto_app/services/reusable_card.dart';
 
 const coinCapURL = 'https://api.coincap.io/v2/rates';
 
@@ -30,9 +29,5 @@ class CryptoData {
       var currentRateInString = currencyData['data']['rateUsd'];
       ratesList.add(double.parse(currentRateInString).toInt());
     }
-
-    // void updateSubscribedCrypto(ReusableCard currency) {
-    //   currency.toggleSubscribed();
-    // }
   }
 }
