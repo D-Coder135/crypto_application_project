@@ -55,10 +55,6 @@ class CryptoData {
         }
       }
     }
-
-    // void updateSubscribedCrypto(ReusableCard currency) {
-    //   currency.toggleSubscribed();
-    // }
   }
 }
 
