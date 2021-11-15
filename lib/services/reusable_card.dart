@@ -18,7 +18,6 @@ class ReusableCard extends StatelessWidget {
       this.colour,
       this.imageFileName,
       this.text,
-      this.letterSpacingValue,
       this.marginValue,
       this.textForUSDRate,
       this.colorForTextUSD,
