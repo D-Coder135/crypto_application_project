@@ -1,7 +1,6 @@
 import 'dart:developer';
 
 import 'package:demo_crypto_app/services/networking.dart';
-import 'package:demo_crypto_app/services/reusable_card.dart';
 import 'package:flutter/cupertino.dart';
 
 const coinCapURL = 'https://api.coincap.io/v2/assets';
