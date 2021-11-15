@@ -15,16 +15,16 @@ class ReusableCard extends StatelessWidget {
   final Color colorForTextINR;
 
   ReusableCard(
-    this.colour,
-    this.imageFileName,
-    this.text,
-    this.letterSpacingValue,
-    this.marginValue,
-    this.textForUSDRate,
-    this.colorForTextUSD,
-    this.textForINRRate,
-    this.colorForTextINR,
-  );
+      this.colour,
+      this.imageFileName,
+      this.text,
+      this.letterSpacingValue,
+      this.marginValue,
+      this.textForUSDRate,
+      this.colorForTextUSD,
+      this.textForINRRate,
+      this.colorForTextINR,
+      );
 
   @override
   Widget build(BuildContext context) {
