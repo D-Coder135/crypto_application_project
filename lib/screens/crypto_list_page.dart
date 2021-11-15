@@ -16,7 +16,7 @@ class _CryptoListState extends State<CryptoList>
   var rateList;
   bool _loading;
 
-  void getData() async {
+   getData() async {
     CryptoData data = CryptoData();
     setState(() {
       _loading = true;
@@ -48,6 +48,19 @@ class _CryptoListState extends State<CryptoList>
             fontWeight: FontWeight.bold,
           ),
         ),
+        actions: [
+          GestureDetector(
+            onTap: () async{
+              await getData();
+            },
+            child: Container(
+              child: Icon(
+                Icons.refresh
+              ),
+            ),
+          )
+        ],
+
         backgroundColor: Colors.blue[400],
       ),
       body: _loading
@@ -71,7 +84,7 @@ class _CryptoListState extends State<CryptoList>
                       Color(0xFFFCE5C9),
                       'images/Bitcoin.png',
                       'Bitcoin(BTC)',
-                      2.0,
+                      0.5,
                       70.0,
                       '\$ ${rateList[0]}',
                       Color(0xFFF29726),

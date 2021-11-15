@@ -59,7 +59,7 @@ class _WelcomePageState extends State<WelcomePage>
                     Hero(
                       tag: 'logo',
                       child: Container(
-                        child: Image.asset('images/bitcoin.png'),
+                        child: Image.asset('images/bitcoins.png'),
                         height: 75.0,
                       ),
                     ),

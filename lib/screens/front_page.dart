@@ -18,7 +18,7 @@ class FrontPage extends StatelessWidget {
               child: Container(
                 padding: EdgeInsets.only(top: 40.0),
                 child: Image(
-                  image: AssetImage('images/bitcoin.png'),
+                  image: AssetImage('images/bitcoins.png'),
                 ),
               ),
             ),
