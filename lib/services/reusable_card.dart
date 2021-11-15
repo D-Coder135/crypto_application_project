@@ -7,7 +7,7 @@ class ReusableCard extends StatelessWidget {
   final Color colour;
   final String imageFileName;
   final String text;
-  final double letterSpacingValue;
+  // final double letterSpacingValue;
   final double marginValue;
   final String textForUSDRate;
   final Color colorForTextUSD;
