@@ -6,7 +6,6 @@ const coinCapURL = 'https://api.coincap.io/v2/rates';
 const List<String> cryptoCurrenciesList = [
   'bitcoin',
   'ethereum',
-  // 'usd-coin',
   'litecoin',
   'dash',
   'bitcoin-cash',
@@ -17,7 +16,6 @@ const List<String> cryptoCurrenciesList = [
   'waves',
   'dogecoin',
   'qtum',
-  // 'husd',
   'zcash',
 ];
 
