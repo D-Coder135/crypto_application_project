@@ -16,60 +16,70 @@ class SubscribedWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Container(
-        margin: EdgeInsets.all(10.0),
+        // margin: EdgeInsets.all(10.0),
         padding: EdgeInsets.all(10.0),
+        width: MediaQuery.of(context).size.width * 0.9,
         decoration: BoxDecoration(
           color: Color(0xFA443CA2),
           borderRadius: BorderRadius.circular(10.0),
         ),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            CircleAvatar(
-              backgroundImage: AssetImage(imageFile),
-              radius: 27.2,
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  currencyName,
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 15.0,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Farro',
-                    letterSpacing: 0.0,
-                  ),
+            Row(
+              children: [
+                CircleAvatar(
+                  backgroundImage: AssetImage(imageFile),
+                  radius: 22.2,
                 ),
-                Container(
-                  alignment: Alignment.centerLeft,
-                  margin: EdgeInsets.only(top: 5.0, right: 45.0),
-                  child: Text(
-                    '$rateInUSD',
-                    style: TextStyle(
-                      fontSize: 12.0,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+                SizedBox(
+                  width: 10.0,
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      currencyName,
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12.0,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'Farro',
+                        letterSpacing: 0.0,
+                      ),
                     ),
-                  ),
+                    Container(
+                      alignment: Alignment.centerLeft,
+                      margin: EdgeInsets.only(top: 5.0, right: 45.0),
+                      child: Text(
+                        '$rateInUSD',
+                        style: TextStyle(
+                          fontSize: 12.0,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
-            Text(
-              '$rateInINR',
-              style: TextStyle(
-                fontSize: 15.0,
-                fontWeight: FontWeight.w900,
-                color: Colors.white,
+            Container(
+              child: Text(
+                '$rateInINR',
+                style: TextStyle(
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.white,
+                ),
               ),
             ),
             TextButton(
               child: Text(
                 'Unsubscribe',
-                style: TextStyle(
-                  color: Colors.white,
-                ),
+                style: TextStyle(color: Colors.white, fontSize: 10.0),
               ),
               style: ButtonStyle(
                 padding: MaterialStateProperty.all(
