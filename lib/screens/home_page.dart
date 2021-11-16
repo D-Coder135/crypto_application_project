@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
             child: TextButton(
               child: CircleAvatar(
                 backgroundImage: AssetImage('images/off.png'),
-                backgroundColor: Colors.blueGrey,
+                backgroundColor: Colors.black,
                 radius: 12.0,
               ),
               onPressed: () {
