@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                         "Subscribed Currencies!",
                         textStyle: TextStyle(
                           color: Colors.white,
-                          fontSize: 33.0,
+                          fontSize: 32.0,
                           fontFamily: 'NunitoSans',
                           fontWeight: FontWeight.w700,
                         ),
