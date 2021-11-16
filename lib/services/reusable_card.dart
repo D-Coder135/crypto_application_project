@@ -66,7 +66,7 @@ class ReusableCard extends StatelessWidget {
                       child: Text(
                         textForUSDRate,
                         style: TextStyle(
-                          fontSize: 17.0,
+                          fontSize: 15.1,
                           color: colorForTextUSD,
                           fontWeight: FontWeight.w900,
                         ),

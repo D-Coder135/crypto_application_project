@@ -42,6 +42,7 @@ class _HomePageState extends State<HomePage> {
               ),
               onPressed: () {
                 _auth.signOut();
+                print("Successfully, Logged Out!");
                 Navigator.pushNamed(context, LoginPage.id);
               },
             ),
@@ -77,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Container(
-                height: MediaQuery.of(context).size.height*0.52,
+                height: MediaQuery.of(context).size.height*0.51,
                 padding: EdgeInsets.symmetric(horizontal: 20.0),
                 decoration: BoxDecoration(
                   color: Colors.white,
