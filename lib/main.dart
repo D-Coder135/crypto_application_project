@@ -30,6 +30,7 @@ class CryptoApp extends StatelessWidget {
           HomePage.id: (context) => HomePage(),
           CryptoList.id: (context) => CryptoList(),
         },
+        debugShowCheckedModeBanner: false,
       ),
     );
   }
