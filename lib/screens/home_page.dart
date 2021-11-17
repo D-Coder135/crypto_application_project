@@ -41,7 +41,9 @@ class _HomePageState extends State<HomePage> {
               child: MaterialButton(
                 onPressed: () {
                   _auth.signOut();
-                    print("Successfully, Logged Out!");
+                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                    content: Text("Logged Out Successfully!"),
+                  ));
                     Navigator.pushNamed(context, LoginPage.id);
                 },
                 minWidth: 60.0,
