@@ -42,7 +42,7 @@ class _CryptoListState extends State<CryptoList>
         title: Text(
           'Live Data!',
           style: TextStyle(
-            color: Colors.black54,
+            color: Colors.white,
             fontFamily: 'Farro',
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -54,6 +54,7 @@ class _CryptoListState extends State<CryptoList>
               await getData();
             },
             child: Container(
+              padding: EdgeInsets.only(right: 16.0),
               child: Icon(
                   Icons.refresh
               ),
