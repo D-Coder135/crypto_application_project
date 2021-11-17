@@ -35,8 +35,8 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: EdgeInsets.only(top: 45.0, left: 300.0),
             child: Material(
-              color: Colors.blueAccent,
-              borderRadius: BorderRadius.circular(30.0),
+              color: Color(0xFF443CA2),
+              borderRadius: BorderRadius.circular(20.0),
               elevation: 5.0,
               child: MaterialButton(
                 onPressed: () {
@@ -47,7 +47,12 @@ class _HomePageState extends State<HomePage> {
                 minWidth: 60.0,
                 height: 40.0,
                 child: Text(
-                  'Log Out',
+                  'Sign Out',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w400,
+                    color: Colors.white,
+                    fontSize: 12.0
+                  ),
                 ),
               ),
             ),
