@@ -33,18 +33,23 @@ class _HomePageState extends State<HomePage> {
       body: Stack(
         children: [
           Padding(
-            padding: EdgeInsets.only(top: 45.0, left: 370.0),
-            child: TextButton(
-              child: CircleAvatar(
-                backgroundImage: AssetImage('images/off.png'),
-                backgroundColor: Colors.black,
-                radius: 14.0,
+            padding: EdgeInsets.only(top: 45.0, left: 300.0),
+            child: Material(
+              color: Colors.blueAccent,
+              borderRadius: BorderRadius.circular(30.0),
+              elevation: 5.0,
+              child: MaterialButton(
+                onPressed: () {
+                  _auth.signOut();
+                    print("Successfully, Logged Out!");
+                    Navigator.pushNamed(context, LoginPage.id);
+                },
+                minWidth: 60.0,
+                height: 40.0,
+                child: Text(
+                  'Log Out',
+                ),
               ),
-              onPressed: () {
-                _auth.signOut();
-                print("Successfully, Logged Out!");
-                Navigator.pushNamed(context, LoginPage.id);
-              },
             ),
           ),
           Column(
@@ -70,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.w700,
                         ),
                         speed: Duration(
-                          milliseconds: 120,
+                          milliseconds: 100,
                         ),
                       ),
                     ],
