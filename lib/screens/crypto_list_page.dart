@@ -23,6 +23,7 @@ class _CryptoListState extends State<CryptoList>
     });
     await data.getCryptoData();
     rateList = data.ratesList;
+    // print(rateList);
     setState(() {
       _loading = false;
     });
@@ -102,17 +103,16 @@ class _CryptoListState extends State<CryptoList>
                 '₹ ${rateList[1] * 72}',
                 Colors.lightBlue[800],
               ),
-              // ReusableCard(
-              //   Color(0xFFF4D96B),
-              //   'images/usdcoin.jpg',
-              //   'USDCoin(USDC)',
-              //   2.5,
-              //   140.0,
-              //   '\$ ${rateList[2]}',
-              //   Colors.orange[700],
-              //   '₹ ${rateList[2] * 72}',
-              //   Colors.orange[800],
-              // ),
+              ReusableCard(
+                Color(0xFFF4D96B),
+                'images/usdcoin.jpg',
+                'USDCoin(USDC)',
+                140.0,
+                '\$ ${rateList[2]}',
+                Colors.orange[700],
+                '₹ ${rateList[2] * 72}',
+                Colors.orange[800],
+              ),
               ReusableCard(
                 Colors.purple[200],
                 'images/Litecoin.png',
@@ -213,27 +213,26 @@ class _CryptoListState extends State<CryptoList>
                 '₹ ${rateList[11] * 72}',
                 Colors.indigo[900],
               ),
-              // ReusableCard(
-              //   Colors.blue,
-              //   'images/husd.png',
-              //   'HUSD',
-              //   5.0,
-              //   120.0,
-              //   '\$ ${rateList[13]}',
-              //   Colors.cyan[900],
-              //   '₹ ${rateList[13] * 72}',
-              //   Colors.cyan[900],
-              // ),
               ReusableCard(
-                Colors.yellow[600],
-                'images/zcash.png',
-                'ZCash(ZEC)',
-                90.0,
+                Colors.blue,
+                'images/husd.png',
+                'HUSD',
+                120.0,
                 '\$ ${rateList[12]}',
-                Colors.amber[800],
+                Colors.cyan[900],
                 '₹ ${rateList[12] * 72}',
-                Colors.amber[900],
-              )
+                Colors.cyan[900],
+              ),
+              // ReusableCard(
+              //   Colors.yellow[600],
+              //   'images/zcash.png',
+              //   'ZCash(ZEC)',
+              //   90.0,
+              //   '\$ ${rateList[12]}',
+              //   Colors.amber[800],
+              //   '₹ ${rateList[12] * 72}',
+              //   Colors.amber[900],
+              // )
             ],
           ),
         ],

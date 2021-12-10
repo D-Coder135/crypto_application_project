@@ -44,7 +44,7 @@ class ReusableCard extends StatelessWidget {
               children: [
                 CircleAvatar(
                   backgroundImage: AssetImage(imageFileName),
-                  radius: 20.0,
+                  radius: 13.0,
                 ),
                 SizedBox(width: 10.0,),
                 Column(

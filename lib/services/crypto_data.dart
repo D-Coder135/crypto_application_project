@@ -8,7 +8,7 @@ const coinCapURL = 'https://api.coincap.io/v2/assets';
 const List<String> cryptoCurrenciesList = [
   'bitcoin',
   'ethereum',
-  // 'usd-coin',
+  'usd-coin',
   'litecoin',
   'dash',
   'bitcoin-cash',
@@ -19,7 +19,7 @@ const List<String> cryptoCurrenciesList = [
   'waves',
   'dogecoin',
   'qtum',
-  // 'husd',
+  'husd',
   'zcash',
 ];
 
@@ -46,6 +46,7 @@ class CryptoData {
 
       list.add(new CoinModel(name: currencyData['data'][i]['id'], price: currencyData['data'][i]['priceUsd']));
     }
+    // print(list.length);
 
     for(String name in cryptoCurrenciesList){
       for(CoinModel cmd in list){
@@ -54,6 +55,7 @@ class CryptoData {
         }
       }
     }
+    // print(ratesList.length);
   }
 }
 
