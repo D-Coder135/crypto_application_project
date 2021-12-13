@@ -16,6 +16,10 @@ A Crypto-Currency price checking app which will be able to monitor your bitcoin 
 
 ![ScreenShot4](https://user-images.githubusercontent.com/59922056/126044890-a34db1a0-8c44-4f1b-a7c3-6174bcb26fa1.png)
 
+https://user-images.githubusercontent.com/59922056/145757072-cce70a06-2182-47f5-93bb-0c7f7b300e7c.mp4
+
+
+
 
 
 
